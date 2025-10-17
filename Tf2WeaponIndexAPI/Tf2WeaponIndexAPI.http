@@ -1,0 +1,6 @@
+@Tf2WeaponIndexAPI_HostAddress = http://localhost:5101
+
+GET {{Tf2WeaponIndexAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
