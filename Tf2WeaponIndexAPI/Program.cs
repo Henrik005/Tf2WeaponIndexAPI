@@ -3,19 +3,22 @@ using Tf2WeaponIndexAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using JwtSettings = Tf2WeaponIndexAPI.Models.JwtSettings;
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 
+//----MongoDB----
 builder.Services.Configure<MongoDBSettings>(
 builder.Configuration.GetSection("MongoDBSettings"));
 builder.Services.AddSingleton<MongoDBService>();
+
+//----Controllers & Swagger----
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//----CORS Configuration----
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowVueApp",
@@ -25,7 +28,29 @@ builder.Services.AddCors(options =>
     .AllowAnyMethod()
     .AllowCredentials());
 });
-var key = Encoding.ASCII.GetBytes("Secret_Secure_Key_That_Should_Be_Fairly_Long_1234");
+//----JWT Authentication Configuration----
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings.Issuer,
+        ValidAudience = jwtSettings.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Secret))
+    };
+});
+builder.Services.AddScoped<JwtTokenGenerator>();
+
 
 var app = builder.Build();
 
@@ -36,7 +61,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//app.UseHttpsRedirection();
 
 app.UseCors("AllowVueApp");
 

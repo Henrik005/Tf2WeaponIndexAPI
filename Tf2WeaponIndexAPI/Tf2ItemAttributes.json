@@ -1,0 +1,5833 @@
+﻿{
+  "1": {
+    "Name": "damage penalty",
+    "Description": "%s1% damage penalty",
+    "Value type": "percentage",
+    "Class": "mult_dmg",
+    "Notes": ""
+  },
+  "2": {
+    "Name": "damage bonus",
+    "Description": "+%s1% damage bonus",
+    "Value type": "percentage",
+    "Class": "mult_dmg",
+    "Notes": ""
+  },
+  "3": {
+    "Name": "clip size penalty",
+    "Description": "%s1% clip size",
+    "Value type": "percentage",
+    "Class": "mult_clipsize",
+    "Notes": ""
+  },
+  "4": {
+    "Name": "clip size bonus",
+    "Description": "+%s1% clip size",
+    "Value type": "percentage",
+    "Class": "mult_clipsize",
+    "Notes": ""
+  },
+  "5": {
+    "Name": "fire rate penalty",
+    "Description": "%s1% slower firing speed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_postfiredelay",
+    "Notes": ""
+  },
+  "6": {
+    "Name": "fire rate bonus",
+    "Description": "+%s1% faster firing speed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_postfiredelay",
+    "Notes": ""
+  },
+  "7": {
+    "Name": "heal rate penalty",
+    "Description": "%s1% heal rate",
+    "Value type": "percentage",
+    "Class": "mult_medigun_healrate",
+    "Notes": "Unused"
+  },
+  "8": {
+    "Name": "heal rate bonus",
+    "Description": "+%s1% heal rate",
+    "Value type": "percentage",
+    "Class": "mult_medigun_healrate",
+    "Notes": ""
+  },
+  "9": {
+    "Name": "ubercharge rate penalty",
+    "Description": "%s1% ÜberCharge rate",
+    "Value type": "percentage",
+    "Class": "mult_medigun_uberchargerate",
+    "Notes": "Unused"
+  },
+  "10": {
+    "Name": "ubercharge rate bonus",
+    "Description": "+%s1% ÜberCharge rate",
+    "Value type": "percentage",
+    "Class": "mult_medigun_uberchargerate",
+    "Notes": ""
+  },
+  "11": {
+    "Name": "overheal bonus",
+    "Description": "+%s1% max overheal",
+    "Value type": "percentage",
+    "Class": "mult_medigun_overheal_amount",
+    "Notes": "Unused"
+  },
+  "12": {
+    "Name": "overheal decay penalty",
+    "Description": "%s1% shorter overheal time",
+    "Value type": "inverted_percentage",
+    "Class": "mult_medigun_overheal_decay",
+    "Notes": "Unused"
+  },
+  "13": {
+    "Name": "overheal decay bonus",
+    "Description": "+%s1% longer overheal time",
+    "Value type": "inverted_percentage",
+    "Class": "mult_medigun_overheal_decay",
+    "Notes": "Unused"
+  },
+  "14": {
+    "Name": "overheal decay disabled",
+    "Description": "Overheal bonus doesn't decay",
+    "Value type": "percentage",
+    "Class": "mult_medigun_overheal_decay",
+    "Notes": "Unused"
+  },
+  "15": {
+    "Name": "crit mod disabled",
+    "Description": "No random critical hits",
+    "Value type": "percentage",
+    "Class": "mult_crit_chance",
+    "Notes": ""
+  },
+  "16": {
+    "Name": "heal on hit for rapidfire",
+    "Description": "On Hit: Gain up to +%s1 health",
+    "Value type": "additive",
+    "Class": "add_onhit_addhealth",
+    "Notes": ""
+  },
+  "17": {
+    "Name": "add uber charge on hit",
+    "Description": "On Hit: %s1% ÜberCharge added",
+    "Value type": "additive_percentage",
+    "Class": "add_onhit_ubercharge",
+    "Notes": ""
+  },
+  "18": {
+    "Name": "medigun charge is crit boost",
+    "Description": "ÜberCharge grants 100% critical chance",
+    "Value type": "additive",
+    "Class": "set_charge_type",
+    "Notes": ""
+  },
+  "19": {
+    "Name": "tmp dmgbuff on hit",
+    "Description": "On Hit: +%s1% damage bonus",
+    "Value type": "additive_percentage",
+    "Class": "addperc_ondmgdone_tmpbuff",
+    "Notes": "Unused"
+  },
+  "20": {
+    "Name": "crit vs burning players",
+    "Description": "100% critical hit vs burning players",
+    "Value type": "or",
+    "Class": "or_crit_vs_playercond",
+    "Notes": ""
+  },
+  "21": {
+    "Name": "dmg penalty vs nonburning",
+    "Description": "%s1% damage vs non-burning players",
+    "Value type": "percentage",
+    "Class": "mult_dmg_vs_nonburning",
+    "Notes": "Unused"
+  },
+  "22": {
+    "Name": "no crit vs nonburning",
+    "Description": "No critical hits vs non-burning players",
+    "Value type": "additive",
+    "Class": "set_nocrit_vs_nonburning",
+    "Notes": "Unused"
+  },
+  "23": {
+    "Name": "mod flamethrower push",
+    "Description": "No compression blast",
+    "Value type": "additive",
+    "Class": "set_flamethrower_push_disabled",
+    "Notes": "Unused"
+  },
+  "24": {
+    "Name": "mod flamethrower back crit",
+    "Description": "100% critical hits from behind",
+    "Value type": "additive",
+    "Class": "set_flamethrower_back_crit",
+    "Notes": ""
+  },
+  "25": {
+    "Name": "hidden secondary max ammo penalty",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_secondary",
+    "Notes": "Hidden"
+  },
+  "26": {
+    "Name": "max health additive bonus",
+    "Description": "+%s1 max health on wearer",
+    "Value type": "additive",
+    "Class": "add_maxhealth",
+    "Notes": ""
+  },
+  "27": {
+    "Name": "alt-fire disabled",
+    "Description": "Attrib_AltFire_Disabled",
+    "Value type": "additive",
+    "Class": "unimplemented_altfire_disabled",
+    "Notes": "Unused"
+  },
+  "28": {
+    "Name": "crit mod disabled hidden",
+    "Description": "No random critical hits",
+    "Value type": "percentage",
+    "Class": "mult_crit_chance",
+    "Notes": "Hidden"
+  },
+  "30": {
+    "Name": "fists have radial buff",
+    "Description": "On Kill: +50 health on nearby teammates On Kill: +10% Crit Chance on nearby teammates",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": "Unused"
+  },
+  "31": {
+    "Name": "critboost on kill",
+    "Description": "On Kill: %s1 seconds of 100% critical chance",
+    "Value type": "additive",
+    "Class": "add_onkill_critboost_time",
+    "Notes": ""
+  },
+  "32": {
+    "Name": "slow enemy on hit",
+    "Description": "On Hit: %s1% chance to slow target",
+    "Value type": "additive_percentage",
+    "Class": "mult_onhit_enemyspeed",
+    "Notes": ""
+  },
+  "33": {
+    "Name": "set cloak is feign death",
+    "Description": "Cloak Type: Feign Death. Leave a fake corpse on taking damage and temporarily gain invisibility, speed, and damage resistance.",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "34": {
+    "Name": "mult cloak meter consume rate",
+    "Description": "+%s1% cloak drain rate",
+    "Value type": "percentage",
+    "Class": "mult_cloak_meter_consume_rate",
+    "Notes": ""
+  },
+  "35": {
+    "Name": "mult cloak meter regen rate",
+    "Description": "+%s1% cloak regen rate",
+    "Value type": "percentage",
+    "Class": "mult_cloak_meter_regen_rate",
+    "Notes": ""
+  },
+  "36": {
+    "Name": "spread penalty",
+    "Description": "%s1% less accurate",
+    "Value type": "percentage",
+    "Class": "mult_spread_scale",
+    "Notes": ""
+  },
+  "37": {
+    "Name": "hidden primary max ammo bonus",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_primary",
+    "Notes": "Hidden"
+  },
+  "38": {
+    "Name": "mod bat launches balls",
+    "Description": "Alt-Fire: Launches a ball that slows opponents",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "39": {
+    "Name": "dmg penalty vs nonstunned",
+    "Description": "%s1% damage vs non-stunned players",
+    "Value type": "percentage",
+    "Class": "unimplemented_mod_dmg_vs_nonstunned",
+    "Notes": "Unused"
+  },
+  "40": {
+    "Name": "zoom speed mod disabled",
+    "Description": "No move speed penalty from zoom",
+    "Value type": "additive",
+    "Class": "unimplemented_mod_zoom_speed_disabled",
+    "Notes": "Unused"
+  },
+  "41": {
+    "Name": "sniper charge per sec",
+    "Description": "+%s1% charge rate",
+    "Value type": "percentage",
+    "Class": "mult_sniper_charge_per_sec",
+    "Notes": ""
+  },
+  "42": {
+    "Name": "sniper no headshots",
+    "Description": "No headshots",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "43": {
+    "Name": "scattergun no reload single",
+    "Description": "Attrib_Scattergun_NoReloadSingle",
+    "Value type": "additive",
+    "Class": "set_scattergun_no_reload_single",
+    "Notes": "Hidden"
+  },
+  "44": {
+    "Name": "scattergun has knockback",
+    "Description": "Knockback on the target and shooter",
+    "Value type": "additive",
+    "Class": "set_scattergun_has_knockback",
+    "Notes": ""
+  },
+  "45": {
+    "Name": "bullets per shot bonus",
+    "Description": "+%s1% bullets per shot",
+    "Value type": "percentage",
+    "Class": "mult_bullets_per_shot",
+    "Notes": ""
+  },
+  "46": {
+    "Name": "sniper zoom penalty",
+    "Description": "%s1% zoom reduction",
+    "Value type": "percentage",
+    "Class": "mult_zoom_fov",
+    "Notes": "Unused"
+  },
+  "47": {
+    "Name": "sniper no charge",
+    "Description": "No zoom or damage charge",
+    "Value type": "additive",
+    "Class": "unimplemented_mod_sniper_no_charge",
+    "Notes": "Unused"
+  },
+  "48": {
+    "Name": "set cloak is movement based",
+    "Description": "Cloak Type: Motion Sensitive. Alt-fire: Turn invisible. Cannot attack while invisible. Bumping in to enemies will make you slightly visible to enemies. Cloak drain rate based on movement speed.",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "49": {
+    "Name": "no double jump",
+    "Description": "Disables double jump",
+    "Value type": "additive",
+    "Class": "set_scout_doublejump_disabled",
+    "Notes": "Unused"
+  },
+  "50": {
+    "Name": "absorb damage while cloaked",
+    "Description": "Absorbs %s1% damage while cloaked",
+    "Value type": "percentage",
+    "Class": "unimplemented_absorb_dmg_while_cloaked",
+    "Notes": "Unused"
+  },
+  "51": {
+    "Name": "revolver use hit locations",
+    "Description": "Crits on headshot",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "52": {
+    "Name": "backstab shield",
+    "Description": "Blocks a single backstab attempt",
+    "Value type": "additive",
+    "Class": "set_blockbackstab_once",
+    "Notes": ""
+  },
+  "53": {
+    "Name": "fire retardant",
+    "Description": "Wearer cannot ignite",
+    "Value type": "additive",
+    "Class": "set_fire_retardant",
+    "Notes": "Unused"
+  },
+  "54": {
+    "Name": "move speed penalty",
+    "Description": "%s1% slower move speed on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_player_movespeed",
+    "Notes": ""
+  },
+  "55": {
+    "Name": "obsolete ammo penalty",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "obsolete",
+    "Notes": "Hidden\nUnused"
+  },
+  "56": {
+    "Name": "jarate description",
+    "Description": "Coated enemies take mini-crits Can be used to extinguish fire",
+    "Value type": "percentage",
+    "Class": "desc_jarate_description",
+    "Notes": ""
+  },
+  "57": {
+    "Name": "health regen",
+    "Description": "+%s1 health regenerated per second on wearer",
+    "Value type": "additive",
+    "Class": "add_health_regen",
+    "Notes": ""
+  },
+  "58": {
+    "Name": "self dmg push force increased",
+    "Description": "+%s1% self damage force",
+    "Value type": "percentage",
+    "Class": "mult_dmgself_push_force",
+    "Notes": "Unused"
+  },
+  "59": {
+    "Name": "self dmg push force decreased",
+    "Description": "%s1% self damage force",
+    "Value type": "percentage",
+    "Class": "mult_dmgself_push_force",
+    "Notes": ""
+  },
+  "60": {
+    "Name": "dmg taken from fire reduced",
+    "Description": "+%s1% fire damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_fire",
+    "Notes": ""
+  },
+  "61": {
+    "Name": "dmg taken from fire increased",
+    "Description": "%s1% fire damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken_from_fire",
+    "Notes": ""
+  },
+  "62": {
+    "Name": "dmg taken from crit reduced",
+    "Description": "+%s1% critical hit damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_crit",
+    "Notes": ""
+  },
+  "63": {
+    "Name": "dmg taken from crit increased",
+    "Description": "%s1% critical hit damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken_from_crit",
+    "Notes": "Unused"
+  },
+  "64": {
+    "Name": "dmg taken from blast reduced",
+    "Description": "+%s1% explosive damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_explosions",
+    "Notes": ""
+  },
+  "65": {
+    "Name": "dmg taken from blast increased",
+    "Description": "%s1% explosive damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken_from_explosions",
+    "Notes": ""
+  },
+  "66": {
+    "Name": "dmg taken from bullets reduced",
+    "Description": "+%s1% bullet damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_bullets",
+    "Notes": "Unused"
+  },
+  "67": {
+    "Name": "dmg taken from bullets increased",
+    "Description": "%s1% bullet damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken_from_bullets",
+    "Notes": ""
+  },
+  "68": {
+    "Name": "increase player capture value",
+    "Description": "+%s1 capture rate on wearer",
+    "Value type": "additive",
+    "Class": "add_player_capturevalue",
+    "Notes": ""
+  },
+  "69": {
+    "Name": "health from healers reduced",
+    "Description": "%s1% health from healers on wearer",
+    "Value type": "percentage",
+    "Class": "mult_health_fromhealers",
+    "Notes": ""
+  },
+  "70": {
+    "Name": "health from healers increased",
+    "Description": "+%s1% health from healers on wearer",
+    "Value type": "percentage",
+    "Class": "mult_health_fromhealers",
+    "Notes": "Unused"
+  },
+  "71": {
+    "Name": "weapon burn dmg increased",
+    "Description": "+%s1% afterburn damage bonus",
+    "Value type": "percentage",
+    "Class": "mult_wpn_burndmg",
+    "Notes": ""
+  },
+  "72": {
+    "Name": "weapon burn dmg reduced",
+    "Description": "%s1% afterburn damage penalty",
+    "Value type": "percentage",
+    "Class": "mult_wpn_burndmg",
+    "Notes": ""
+  },
+  "73": {
+    "Name": "weapon burn time increased",
+    "Description": "+%s1% afterburn duration",
+    "Value type": "percentage",
+    "Class": "mult_wpn_burntime",
+    "Notes": ""
+  },
+  "74": {
+    "Name": "weapon burn time reduced",
+    "Description": "%s1% afterburn duration",
+    "Value type": "percentage",
+    "Class": "mult_wpn_burntime",
+    "Notes": "Unused"
+  },
+  "75": {
+    "Name": "aiming movespeed increased",
+    "Description": "+%s1% faster move speed while deployed",
+    "Value type": "percentage",
+    "Class": "mult_player_aiming_movespeed",
+    "Notes": "Unused"
+  },
+  "76": {
+    "Name": "maxammo primary increased",
+    "Description": "+%s1% max primary ammo on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_primary",
+    "Notes": ""
+  },
+  "77": {
+    "Name": "maxammo primary reduced",
+    "Description": "%s1% max primary ammo on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_primary",
+    "Notes": ""
+  },
+  "78": {
+    "Name": "maxammo secondary increased",
+    "Description": "+%s1% max secondary ammo on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_secondary",
+    "Notes": ""
+  },
+  "79": {
+    "Name": "maxammo secondary reduced",
+    "Description": "%s1% max secondary ammo on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_secondary",
+    "Notes": ""
+  },
+  "80": {
+    "Name": "maxammo metal increased",
+    "Description": "+%s1% max metal on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_metal",
+    "Notes": ""
+  },
+  "81": {
+    "Name": "maxammo metal reduced",
+    "Description": "%s1% max metal on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_metal",
+    "Notes": "Unused"
+  },
+  "82": {
+    "Name": "cloak consume rate increased",
+    "Description": "-%s1% cloak duration",
+    "Value type": "percentage",
+    "Class": "mult_cloak_meter_consume_rate",
+    "Notes": "Unused"
+  },
+  "83": {
+    "Name": "cloak consume rate decreased",
+    "Description": "+%s1% cloak duration",
+    "Value type": "inverted_percentage",
+    "Class": "mult_cloak_meter_consume_rate",
+    "Notes": ""
+  },
+  "84": {
+    "Name": "cloak regen rate increased",
+    "Description": "+%s1% cloak regeneration rate",
+    "Value type": "percentage",
+    "Class": "mult_cloak_meter_regen_rate",
+    "Notes": "Unused"
+  },
+  "85": {
+    "Name": "cloak regen rate decreased",
+    "Description": "%s1% cloak regeneration rate",
+    "Value type": "percentage",
+    "Class": "mult_cloak_meter_regen_rate",
+    "Notes": "Unused"
+  },
+  "86": {
+    "Name": "minigun spinup time increased",
+    "Description": "%s1% slower spin up time",
+    "Value type": "percentage",
+    "Class": "mult_minigun_spinup_time",
+    "Notes": ""
+  },
+  "87": {
+    "Name": "minigun spinup time decreased",
+    "Description": "%s1% faster spin up time",
+    "Value type": "inverted_percentage",
+    "Class": "mult_minigun_spinup_time",
+    "Notes": ""
+  },
+  "88": {
+    "Name": "max pipebombs increased",
+    "Description": "+%s1 max stickybombs out",
+    "Value type": "additive",
+    "Class": "add_max_pipebombs",
+    "Notes": ""
+  },
+  "89": {
+    "Name": "max pipebombs decreased",
+    "Description": "%s1 max stickybombs out",
+    "Value type": "additive",
+    "Class": "add_max_pipebombs",
+    "Notes": ""
+  },
+  "90": {
+    "Name": "SRifle Charge rate increased",
+    "Description": "%s1% faster power charge",
+    "Value type": "percentage",
+    "Class": "mult_sniper_charge_per_sec",
+    "Notes": ""
+  },
+  "91": {
+    "Name": "SRifle Charge rate decreased",
+    "Description": "%s1% slower power charge",
+    "Value type": "inverted_percentage",
+    "Class": "mult_sniper_charge_per_sec",
+    "Notes": "Unused"
+  },
+  "92": {
+    "Name": "Construction rate increased",
+    "Description": "Construction hit speed boost increased by %s1%",
+    "Value type": "percentage",
+    "Class": "mult_construction_value",
+    "Notes": ""
+  },
+  "93": {
+    "Name": "Construction rate decreased",
+    "Description": "Construction hit speed boost decreased by %s1%",
+    "Value type": "inverted_percentage",
+    "Class": "mult_construction_value",
+    "Notes": ""
+  },
+  "94": {
+    "Name": "Repair rate increased",
+    "Description": "%s1% faster repair rate",
+    "Value type": "percentage",
+    "Class": "mult_repair_value",
+    "Notes": "Unused"
+  },
+  "95": {
+    "Name": "Repair rate decreased",
+    "Description": "%s1% slower repair rate",
+    "Value type": "inverted_percentage",
+    "Class": "mult_repair_value",
+    "Notes": ""
+  },
+  "96": {
+    "Name": "Reload time increased",
+    "Description": "%s1% slower reload time",
+    "Value type": "percentage",
+    "Class": "mult_reload_time",
+    "Notes": "Unused"
+  },
+  "97": {
+    "Name": "Reload time decreased",
+    "Description": "%s1% faster reload time",
+    "Value type": "inverted_percentage",
+    "Class": "mult_reload_time",
+    "Notes": ""
+  },
+  "98": {
+    "Name": "selfdmg on hit for rapidfire",
+    "Description": "On Hit: %s1 health",
+    "Value type": "additive",
+    "Class": "add_onhit_addhealth",
+    "Notes": "Unused"
+  },
+  "99": {
+    "Name": "Blast radius increased",
+    "Description": "+%s1% explosion radius",
+    "Value type": "percentage",
+    "Class": "mult_explosion_radius",
+    "Notes": "Unused"
+  },
+  "100": {
+    "Name": "Blast radius decreased",
+    "Description": "%s1% explosion radius",
+    "Value type": "percentage",
+    "Class": "mult_explosion_radius",
+    "Notes": ""
+  },
+  "101": {
+    "Name": "Projectile range increased",
+    "Description": "+%s1% projectile range",
+    "Value type": "percentage",
+    "Class": "mult_projectile_range",
+    "Notes": "Unused"
+  },
+  "102": {
+    "Name": "Projectile range decreased",
+    "Description": "%s1% projectile range",
+    "Value type": "percentage",
+    "Class": "mult_projectile_range",
+    "Notes": "Unused"
+  },
+  "103": {
+    "Name": "Projectile speed increased",
+    "Description": "+%s1% projectile speed",
+    "Value type": "percentage",
+    "Class": "mult_projectile_speed",
+    "Notes": ""
+  },
+  "104": {
+    "Name": "Projectile speed decreased",
+    "Description": "%s1% projectile speed",
+    "Value type": "percentage",
+    "Class": "mult_projectile_speed",
+    "Notes": "Unused"
+  },
+  "105": {
+    "Name": "overheal penalty",
+    "Description": "%s1% max overheal",
+    "Value type": "inverted_percentage",
+    "Class": "mult_medigun_overheal_amount",
+    "Notes": ""
+  },
+  "106": {
+    "Name": "weapon spread bonus",
+    "Description": "%s1% more accurate",
+    "Value type": "inverted_percentage",
+    "Class": "mult_spread_scale",
+    "Notes": ""
+  },
+  "107": {
+    "Name": "move speed bonus",
+    "Description": "+%s1% faster move speed on wearer",
+    "Value type": "percentage",
+    "Class": "mult_player_movespeed",
+    "Notes": ""
+  },
+  "108": {
+    "Name": "health from packs increased",
+    "Description": "+%s1% health from packs on wearer",
+    "Value type": "percentage",
+    "Class": "mult_health_frompacks",
+    "Notes": ""
+  },
+  "109": {
+    "Name": "health from packs decreased",
+    "Description": "%s1% health from packs on wearer",
+    "Value type": "percentage",
+    "Class": "mult_health_frompacks",
+    "Notes": "Unused"
+  },
+  "110": {
+    "Name": "heal on hit for slowfire",
+    "Description": "On Hit: Gain up to +%s1 health",
+    "Value type": "additive",
+    "Class": "add_onhit_addhealth",
+    "Notes": "Unused"
+  },
+  "111": {
+    "Name": "selfdmg on hit for slowfire",
+    "Description": "On Hit: %s1 health",
+    "Value type": "additive",
+    "Class": "add_onhit_addhealth",
+    "Notes": "Unused"
+  },
+  "112": {
+    "Name": "ammo regen",
+    "Description": "+%s1% ammo regenerated every 5 seconds on wearer",
+    "Value type": "additive_percentage",
+    "Class": "addperc_ammo_regen",
+    "Notes": "Unused"
+  },
+  "113": {
+    "Name": "metal regen",
+    "Description": "+%s1 metal regenerated every 5 seconds on wearer",
+    "Value type": "additive",
+    "Class": "add_metal_regen",
+    "Notes": ""
+  },
+  "114": {
+    "Name": "mod mini-crit airborne",
+    "Description": "Mini-crits targets launched airborne by explosions, grapple hooks or rocket packs",
+    "Value type": "additive",
+    "Class": "mini_crit_airborne",
+    "Notes": ""
+  },
+  "115": {
+    "Name": "mod shovel damage boost",
+    "Description": "Damage increases as the user becomes injured",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "116": {
+    "Name": "mod soldier buff type",
+    "Description": "Attrib_SoldierBuffType",
+    "Value type": "additive",
+    "Class": "set_buff_type",
+    "Notes": "Hidden"
+  },
+  "117": {
+    "Name": "dmg falloff increased",
+    "Description": "Attrib_Dmg_Falloff_Increased",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmg_falloff",
+    "Notes": "Unused"
+  },
+  "118": {
+    "Name": "dmg falloff decreased",
+    "Description": "%s1% splash damage fall off",
+    "Value type": "percentage",
+    "Class": "mult_dmg_falloff",
+    "Notes": "Unused"
+  },
+  "119": {
+    "Name": "sticky detonate mode",
+    "Description": "Detonates stickybombs near the crosshair and directly under your feet",
+    "Value type": "additive",
+    "Class": "set_detonate_mode",
+    "Notes": ""
+  },
+  "120": {
+    "Name": "sticky arm time penalty",
+    "Description": "%s1 sec slower bomb arm time",
+    "Value type": "additive",
+    "Class": "sticky_arm_time",
+    "Notes": ""
+  },
+  "121": {
+    "Name": "stickies detonate stickies",
+    "Description": "Able to destroy enemy stickybomb",
+    "Value type": "additive",
+    "Class": "stickies_detonate_stickies",
+    "Notes": ""
+  },
+  "122": {
+    "Name": "mod demo buff type",
+    "Description": "Attrib_DemoBuffType",
+    "Value type": "additive",
+    "Class": "set_buff_type",
+    "Notes": "Hidden\nUnused"
+  },
+  "123": {
+    "Name": "speed boost when active",
+    "Description": "%s1% speed boost while active weapon",
+    "Value type": "percentage",
+    "Class": "mult_move_speed_when_active",
+    "Notes": "Unused"
+  },
+  "124": {
+    "Name": "mod wrench builds minisentry",
+    "Description": "Replaces the Sentry with a Mini-Sentry",
+    "Value type": "additive",
+    "Class": "wrench_builds_minisentry",
+    "Notes": ""
+  },
+  "125": {
+    "Name": "max health additive penalty",
+    "Description": "%s1 max health on wearer",
+    "Value type": "additive",
+    "Class": "add_maxhealth",
+    "Notes": ""
+  },
+  "126": {
+    "Name": "sticky arm time bonus",
+    "Description": "%s1 sec faster bomb arm time",
+    "Value type": "additive",
+    "Class": "sticky_arm_time",
+    "Notes": ""
+  },
+  "127": {
+    "Name": "sticky air burst mode",
+    "Description": "Launched bombs shatter on surfaces",
+    "Value type": "additive",
+    "Class": "set_detonate_mode",
+    "Notes": ""
+  },
+  "128": {
+    "Name": "provide on active",
+    "Description": "When weapon is active:",
+    "Value type": "additive",
+    "Class": "provide_on_active",
+    "Notes": ""
+  },
+  "129": {
+    "Name": "health drain",
+    "Description": "%s1 health drained per second on wearer",
+    "Value type": "additive",
+    "Class": "add_health_regen",
+    "Notes": "Unused"
+  },
+  "130": {
+    "Name": "medic regen bonus",
+    "Description": "+%s1% natural regen rate",
+    "Value type": "percentage",
+    "Class": "medic_regen",
+    "Notes": "Unused"
+  },
+  "131": {
+    "Name": "medic regen penalty",
+    "Description": "-%s1% natural regen rate",
+    "Value type": "percentage",
+    "Class": "medic_regen",
+    "Notes": "Unused"
+  },
+  "132": {
+    "Name": "community description",
+    "Description": "Given to valuable Community Contributors",
+    "Value type": "percentage",
+    "Class": "desc_community_description",
+    "Notes": "Hidden\nUnused"
+  },
+  "133": {
+    "Name": "soldier model index",
+    "Description": "Medal no. %s1",
+    "Value type": "additive",
+    "Class": "desc_soldiermedal_index",
+    "Notes": "Unused"
+  },
+  "134": {
+    "Name": "attach particle effect",
+    "Description": "★ Unusual Effect: %s1",
+    "Value type": "particle_index",
+    "Class": "set_attached_particle",
+    "Notes": ""
+  },
+  "135": {
+    "Name": "rocket jump damage reduction",
+    "Description": "%s1% blast damage from rocket jumps",
+    "Value type": "percentage",
+    "Class": "rocket_jump_dmg_reduction",
+    "Notes": ""
+  },
+  "136": {
+    "Name": "mod sentry killed revenge",
+    "Description": "Gain 2 revenge crits for each sentry kill and 1 for each sentry assist when your sentry is destroyed.",
+    "Value type": "additive",
+    "Class": "sentry_killed_revenge",
+    "Notes": ""
+  },
+  "137": {
+    "Name": "dmg bonus vs buildings",
+    "Description": "+%s1% damage vs buildings",
+    "Value type": "percentage",
+    "Class": "mult_dmg_vs_buildings",
+    "Notes": ""
+  },
+  "138": {
+    "Name": "dmg penalty vs players",
+    "Description": "%s1% damage vs players",
+    "Value type": "percentage",
+    "Class": "mult_dmg_vs_players",
+    "Notes": ""
+  },
+  "139": {
+    "Name": "lunchbox adds maxhealth bonus",
+    "Description": "Adds +50 max health for 30 seconds",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "140": {
+    "Name": "hidden maxhealth non buffed",
+    "Description": "+%s1 max health on wearer",
+    "Value type": "additive",
+    "Class": "add_maxhealth_nonbuffed",
+    "Notes": "Hidden\nUnused"
+  },
+  "141": {
+    "Name": "selfmade description",
+    "Description": "I made this!",
+    "Value type": "percentage",
+    "Class": "desc_selfmade_description",
+    "Notes": "Hidden\nUnused"
+  },
+  "142": {
+    "Name": "set item tint RGB",
+    "Description": "Item tint color code: %s1",
+    "Value type": "additive",
+    "Class": "set_item_tint_rgb",
+    "Notes": "Hidden"
+  },
+  "143": {
+    "Name": "custom employee number",
+    "Description": "Hire Date: %s1",
+    "Value type": "date",
+    "Class": "set_employee_number",
+    "Notes": ""
+  },
+  "144": {
+    "Name": "lunchbox adds minicrits",
+    "Description": "Sets weapon mode #%s1",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": "Hidden"
+  },
+  "145": {
+    "Name": "taunt is highfive",
+    "Description": "%s1% damage penalty",
+    "Value type": "additive",
+    "Class": "enable_misc2_highfive",
+    "Notes": "Hidden\nUnused"
+  },
+  "146": {
+    "Name": "damage applies to sappers",
+    "Description": "Damage removes Sappers",
+    "Value type": "additive",
+    "Class": "set_dmg_apply_to_sapper",
+    "Notes": ""
+  },
+  "147": {
+    "Name": "Wrench index",
+    "Description": "Wrench no. %s1",
+    "Value type": "additive",
+    "Class": "desc_wrench_index",
+    "Notes": "Unused"
+  },
+  "148": {
+    "Name": "building cost reduction",
+    "Description": "%s1 metal reduction in building cost",
+    "Value type": "percentage",
+    "Class": "building_cost_reduction",
+    "Notes": "Unused"
+  },
+  "149": {
+    "Name": "bleeding duration",
+    "Description": "On Hit: Bleed for %s1 seconds",
+    "Value type": "additive",
+    "Class": "bleeding_duration",
+    "Notes": ""
+  },
+  "150": {
+    "Name": "turn to gold",
+    "Description": "Imbued with an ancient power",
+    "Value type": "additive",
+    "Class": "set_turn_to_gold",
+    "Notes": ""
+  },
+  "151": {
+    "Name": "DEPRECATED socketed item definition id DEPRECATED",
+    "Description": "Attrib_Socket",
+    "Value type": "additive",
+    "Class": "socketed_item_definition_id",
+    "Notes": "Unused"
+  },
+  "152": {
+    "Name": "custom texture lo",
+    "Description": "Custom Texture",
+    "Value type": "additive",
+    "Class": "custom_texture_lo",
+    "Notes": "Hidden"
+  },
+  "153": {
+    "Name": "cannot trade",
+    "Description": "Not Tradable or Marketable",
+    "Value type": "additive",
+    "Class": "cannot_trade",
+    "Notes": "Hidden"
+  },
+  "154": {
+    "Name": "disguise on backstab",
+    "Description": "Upon a successful backstab against a human target, you rapidly disguise as your victim",
+    "Value type": "additive",
+    "Class": "set_disguise_on_backstab",
+    "Notes": ""
+  },
+  "155": {
+    "Name": "cannot disguise",
+    "Description": "Wearer cannot disguise",
+    "Value type": "additive",
+    "Class": "set_cannot_disguise",
+    "Notes": "Unused"
+  },
+  "156": {
+    "Name": "silent killer",
+    "Description": "Silent Killer: No attack noise from backstabs",
+    "Value type": "additive",
+    "Class": "set_silent_killer",
+    "Notes": ""
+  },
+  "157": {
+    "Name": "disguise speed penalty",
+    "Description": "%s1 sec slower disguise speed",
+    "Value type": "additive",
+    "Class": "disguise_speed_penalty",
+    "Notes": "Unused"
+  },
+  "158": {
+    "Name": "add cloak on kill",
+    "Description": "+%s1% cloak on kill",
+    "Value type": "additive",
+    "Class": "add_cloak_on_kill",
+    "Notes": ""
+  },
+  "159": {
+    "Name": "SET BONUS: cloak blink time penalty",
+    "Description": "%s1 sec longer cloak blink time",
+    "Value type": "additive",
+    "Class": "cloak_blink_time_penalty",
+    "Notes": "Unused"
+  },
+  "160": {
+    "Name": "SET BONUS: quiet unstealth",
+    "Description": "Reduced decloak sound volume",
+    "Value type": "additive",
+    "Class": "set_quiet_unstealth",
+    "Notes": "Unused"
+  },
+  "161": {
+    "Name": "flame size penalty",
+    "Description": "%s1% less flame spread area",
+    "Value type": "percentage",
+    "Class": "mult_flame_size",
+    "Notes": "Unused"
+  },
+  "162": {
+    "Name": "flame size bonus",
+    "Description": "+%s1% more flame spread area",
+    "Value type": "percentage",
+    "Class": "mult_flame_size",
+    "Notes": "Unused"
+  },
+  "163": {
+    "Name": "flame life penalty",
+    "Description": "%s1% less flame distance",
+    "Value type": "percentage",
+    "Class": "mult_flame_life",
+    "Notes": "Unused"
+  },
+  "164": {
+    "Name": "flame life bonus",
+    "Description": "+%s1% more flame distance",
+    "Value type": "percentage",
+    "Class": "mult_flame_life",
+    "Notes": "Unused"
+  },
+  "165": {
+    "Name": "charged airblast",
+    "Description": "Airblast can now be charged, which will push enemies further",
+    "Value type": "additive",
+    "Class": "set_charged_airblast",
+    "Notes": "Unused"
+  },
+  "166": {
+    "Name": "add cloak on hit",
+    "Description": "+%s1% cloak on hit",
+    "Value type": "additive",
+    "Class": "add_cloak_on_hit",
+    "Notes": ""
+  },
+  "167": {
+    "Name": "disguise damage reduction",
+    "Description": "Attrib_DisguiseDamageReduction",
+    "Value type": "percentage",
+    "Class": "disguise_damage_reduction",
+    "Notes": "Unused"
+  },
+  "168": {
+    "Name": "disguise no burn",
+    "Description": "Immune to fire damage while disguised",
+    "Value type": "additive",
+    "Class": "disguise_no_burn",
+    "Notes": "Unused"
+  },
+  "169": {
+    "Name": "SET BONUS: dmg from sentry reduced",
+    "Description": "+%s1% sentry damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "dmg_from_sentry_reduced",
+    "Notes": "Unused"
+  },
+  "170": {
+    "Name": "airblast cost increased",
+    "Description": "+%s1% airblast cost",
+    "Value type": "percentage",
+    "Class": "mult_airblast_cost",
+    "Notes": ""
+  },
+  "171": {
+    "Name": "airblast cost decreased",
+    "Description": "%s1% airblast cost",
+    "Value type": "percentage",
+    "Class": "mult_airblast_cost",
+    "Notes": "Unused"
+  },
+  "172": {
+    "Name": "purchased",
+    "Description": "Purchased: Not Tradable, Marketable, or Usable in Crafting",
+    "Value type": "additive",
+    "Class": "purchased",
+    "Notes": "Hidden\nUnused"
+  },
+  "173": {
+    "Name": "flame ammopersec increased",
+    "Description": "+%s1% flamethrower ammo consumed per second",
+    "Value type": "percentage",
+    "Class": "mult_flame_ammopersec",
+    "Notes": "Unused"
+  },
+  "174": {
+    "Name": "flame ammopersec decreased",
+    "Description": "%s1% flamethrower ammo consumed per second",
+    "Value type": "percentage",
+    "Class": "mult_flame_ammopersec",
+    "Notes": "Unused"
+  },
+  "175": {
+    "Name": "jarate duration",
+    "Description": "On Scoped Hit: Apply Jarate for 2 to %s1 seconds based on charge level. Nature's Call: Scoped headshots always mini-crits and reduce the remaining cooldown of Jarate by 1 second.",
+    "Value type": "additive",
+    "Class": "jarate_duration",
+    "Notes": ""
+  },
+  "176": {
+    "Name": "SET BONUS: no death from headshots",
+    "Description": "The wearer cannot be killed by headshots",
+    "Value type": "additive",
+    "Class": "no_death_from_headshots",
+    "Notes": "Unused"
+  },
+  "177": {
+    "Name": "deploy time increased",
+    "Description": "%s1% longer weapon switch",
+    "Value type": "percentage",
+    "Class": "mult_deploy_time",
+    "Notes": "Unused"
+  },
+  "178": {
+    "Name": "deploy time decreased",
+    "Description": "%s1% faster weapon switch",
+    "Value type": "inverted_percentage",
+    "Class": "mult_deploy_time",
+    "Notes": "Unused"
+  },
+  "179": {
+    "Name": "minicrits become crits",
+    "Description": "Crits whenever it would normally mini-crit",
+    "Value type": "additive",
+    "Class": "minicrits_become_crits",
+    "Notes": ""
+  },
+  "180": {
+    "Name": "heal on kill",
+    "Description": "+%s1 health restored on kill",
+    "Value type": "additive",
+    "Class": "heal_on_kill",
+    "Notes": ""
+  },
+  "181": {
+    "Name": "no self blast dmg",
+    "Description": "No self inflicted blast damage taken",
+    "Value type": "additive",
+    "Class": "no_self_blast_dmg",
+    "Notes": ""
+  },
+  "182": {
+    "Name": "slow enemy on hit major",
+    "Description": "On Hit: Slow target movement by 40% for %s1s",
+    "Value type": "additive",
+    "Class": "mult_onhit_enemyspeed_major",
+    "Notes": "Unused"
+  },
+  "183": {
+    "Name": "aiming movespeed decreased",
+    "Description": "%s1% slower move speed while deployed",
+    "Value type": "percentage",
+    "Class": "mult_player_aiming_movespeed",
+    "Notes": ""
+  },
+  "184": {
+    "Name": "duel loser account id",
+    "Description": "Attrib_DuelLoserAccountID",
+    "Value type": "account_id",
+    "Class": "duel_loser_account_id",
+    "Notes": "Unused"
+  },
+  "185": {
+    "Name": "event date",
+    "Description": "Date Received: %s1",
+    "Value type": "date",
+    "Class": "event_date",
+    "Notes": "Hidden\nUnused"
+  },
+  "186": {
+    "Name": "gifter account id",
+    "Description": "Gift from: %s1",
+    "Value type": "account_id",
+    "Class": "gifter_account_id",
+    "Notes": "Hidden\nUnused"
+  },
+  "187": {
+    "Name": "set supply crate series",
+    "Description": "Crate Series #%s1",
+    "Value type": "additive",
+    "Class": "supply_crate_series",
+    "Notes": ""
+  },
+  "188": {
+    "Name": "preserve ubercharge",
+    "Description": "On death up to %s1% of your stored ÜberCharge is retained",
+    "Value type": "additive",
+    "Class": "preserve_ubercharge",
+    "Notes": "Unused"
+  },
+  "189": {
+    "Name": "elevate quality",
+    "Description": "Attrib_ElevateQuality",
+    "Value type": "additive",
+    "Class": "set_elevated_quality",
+    "Notes": "Hidden"
+  },
+  "190": {
+    "Name": "active health regen",
+    "Description": "+%s1 health regenerated per second on wearer",
+    "Value type": "additive",
+    "Class": "active_item_health_regen",
+    "Notes": "Unused"
+  },
+  "191": {
+    "Name": "active health degen",
+    "Description": "%s1 health drained per second on wearer",
+    "Value type": "additive",
+    "Class": "active_item_health_regen",
+    "Notes": "Unused"
+  },
+  "192": {
+    "Name": "referenced item id low",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "referenced_item_id_low",
+    "Notes": "Hidden\nUnused"
+  },
+  "193": {
+    "Name": "referenced item id high",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "referenced_item_id_high",
+    "Notes": "Hidden\nUnused"
+  },
+  "194": {
+    "Name": "referenced item def UPDATED",
+    "Description": "Contains: %s1",
+    "Value type": "item_def",
+    "Class": "referenced_item_def",
+    "Notes": "Hidden\nUnused"
+  },
+  "195": {
+    "Name": "always tradable",
+    "Description": "Always Tradable",
+    "Value type": "additive",
+    "Class": "always_tradable",
+    "Notes": "Hidden"
+  },
+  "196": {
+    "Name": "noise maker",
+    "Description": "Noise Maker",
+    "Value type": "additive",
+    "Class": "enable_misc2_noisemaker",
+    "Notes": "Hidden"
+  },
+  "197": {
+    "Name": "halloween item",
+    "Description": "This is a special Halloween %s1 item",
+    "Value type": "additive",
+    "Class": "halloween_item",
+    "Notes": ""
+  },
+  "198": {
+    "Name": "collection bits DEPRECATED",
+    "Description": "This is a special Halloween %s1 item",
+    "Value type": "additive",
+    "Class": "collection_bits_DEPRECATED",
+    "Notes": "Hidden\nUnused"
+  },
+  "199": {
+    "Name": "switch from wep deploy time decreased",
+    "Description": "This weapon holsters %s1% faster",
+    "Value type": "inverted_percentage",
+    "Class": "mult_switch_from_wep_deploy_time",
+    "Notes": ""
+  },
+  "200": {
+    "Name": "enables aoe heal",
+    "Description": "Alt-Fire: Applies a healing effect to all nearby teammates",
+    "Value type": "additive",
+    "Class": "enables_aoe_heal",
+    "Notes": ""
+  },
+  "201": {
+    "Name": "gesture speed increase",
+    "Description": "+%s1% faster taunt speed on wearer",
+    "Value type": "percentage",
+    "Class": "mult_gesture_time",
+    "Notes": "Unused"
+  },
+  "202": {
+    "Name": "charge time increased",
+    "Description": "%s1 sec increase in charge duration",
+    "Value type": "additive",
+    "Class": "mod_charge_time",
+    "Notes": ""
+  },
+  "203": {
+    "Name": "drop health pack on kill",
+    "Description": "On Kill: A small health pack is dropped",
+    "Value type": "additive",
+    "Class": "drop_health_pack_on_kill",
+    "Notes": ""
+  },
+  "204": {
+    "Name": "hit self on miss",
+    "Description": "On Miss: Hit yourself. Idiot.",
+    "Value type": "additive",
+    "Class": "hit_self_on_miss",
+    "Notes": ""
+  },
+  "205": {
+    "Name": "dmg from ranged reduced",
+    "Description": "%s1% damage from ranged sources while active",
+    "Value type": "percentage",
+    "Class": "dmg_from_ranged",
+    "Notes": ""
+  },
+  "206": {
+    "Name": "dmg from melee increased",
+    "Description": "+%s1% damage from melee sources while active",
+    "Value type": "percentage",
+    "Class": "dmg_from_melee",
+    "Notes": ""
+  },
+  "207": {
+    "Name": "blast dmg to self increased",
+    "Description": "+%s1% damage to self",
+    "Value type": "percentage",
+    "Class": "blast_dmg_to_self",
+    "Notes": ""
+  },
+  "208": {
+    "Name": "Set DamageType Ignite",
+    "Description": "On Hit: target is engulfed in flames",
+    "Value type": "additive",
+    "Class": "set_dmgtype_ignite",
+    "Notes": ""
+  },
+  "209": {
+    "Name": "minicrit vs burning player",
+    "Description": "100% minicrits vs burning players",
+    "Value type": "additive",
+    "Class": "or_minicrit_vs_playercond_burning",
+    "Notes": ""
+  },
+  "211": {
+    "Name": "tradable after date",
+    "Description": "Tradable After: %s1",
+    "Value type": "date",
+    "Class": "tradable_after_date",
+    "Notes": "Hidden\nUnused"
+  },
+  "212": {
+    "Name": "force level display",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "force_level_display",
+    "Notes": "Hidden\nUnused"
+  },
+  "214": {
+    "Name": "kill eater",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater",
+    "Notes": "Hidden"
+  },
+  "215": {
+    "Name": "apply z velocity on damage",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "apply_z_velocity_on_damage",
+    "Notes": "Hidden\nUnused"
+  },
+  "216": {
+    "Name": "apply look velocity on damage",
+    "Description": "Attrib_Knockback",
+    "Value type": "additive",
+    "Class": "apply_look_velocity_on_damage",
+    "Notes": "Hidden\nUnused"
+  },
+  "217": {
+    "Name": "sanguisuge",
+    "Description": "On Backstab: Absorbs the health from your victim.",
+    "Value type": "additive",
+    "Class": "sanguisuge",
+    "Notes": ""
+  },
+  "218": {
+    "Name": "mark for death",
+    "Description": "On Hit: One target at a time is Marked-For-Death, causing all damage taken to be mini-crits",
+    "Value type": "additive",
+    "Class": "mark_for_death",
+    "Notes": ""
+  },
+  "219": {
+    "Name": "decapitate type",
+    "Description": "%s1% damage penalty",
+    "Value type": "additive",
+    "Class": "decapitate_type",
+    "Notes": "Hidden"
+  },
+  "220": {
+    "Name": "restore health on kill",
+    "Description": "On Kill: Gain %s1% of base health on kill",
+    "Value type": "additive",
+    "Class": "restore_health_on_kill",
+    "Notes": ""
+  },
+  "221": {
+    "Name": "mult decloak rate",
+    "Description": "Attrib_DecloakRate",
+    "Value type": "additive",
+    "Class": "mult_decloak_rate",
+    "Notes": "Unused"
+  },
+  "222": {
+    "Name": "mult sniper charge after bodyshot",
+    "Description": "On Scoped Bodyshot: Rifle charge rate increased by %s1%",
+    "Value type": "percentage",
+    "Class": "mult_sniper_charge_after_bodyshot",
+    "Notes": "Unused"
+  },
+  "223": {
+    "Name": "mult sniper charge after miss",
+    "Description": "On Scoped Miss: Rifle charge rate decreased by %s1%",
+    "Value type": "percentage",
+    "Class": "mult_sniper_charge_after_miss",
+    "Notes": "Unused"
+  },
+  "224": {
+    "Name": "dmg bonus while half dead",
+    "Description": "%s1% increase in damage when health <50% of max",
+    "Value type": "percentage",
+    "Class": "mult_dmg_bonus_while_half_dead",
+    "Notes": ""
+  },
+  "225": {
+    "Name": "dmg penalty while half alive",
+    "Description": "%s1% decrease in damage when health >50% of max",
+    "Value type": "percentage",
+    "Class": "mult_dmg_penalty_while_half_alive",
+    "Notes": ""
+  },
+  "226": {
+    "Name": "honorbound",
+    "Description": "Honorbound: Once drawn sheathing deals 50 damage to yourself unless it kills.",
+    "Value type": "additive",
+    "Class": "honorbound",
+    "Notes": ""
+  },
+  "227": {
+    "Name": "custom texture hi",
+    "Description": "Custom Texture",
+    "Value type": "additive",
+    "Class": "custom_texture_hi",
+    "Notes": "Hidden"
+  },
+  "228": {
+    "Name": "makers mark id",
+    "Description": "Crafted by %s1",
+    "Value type": "account_id",
+    "Class": "makers_mark_id",
+    "Notes": "Hidden\nUnused"
+  },
+  "229": {
+    "Name": "unique craft index",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "unique_craft_index",
+    "Notes": "Hidden\nUnused"
+  },
+  "230": {
+    "Name": "mod medic killed revenge",
+    "Description": "When the medic healing you is killed you gain 2 revenge crits",
+    "Value type": "additive",
+    "Class": "medic_killed_revenge",
+    "Notes": "Unused"
+  },
+  "231": {
+    "Name": "medigun charge is megaheal",
+    "Description": "ÜberCharge increases healing to 300% and grants immunity to movement-impairing effects",
+    "Value type": "additive",
+    "Class": "set_charge_type",
+    "Notes": ""
+  },
+  "232": {
+    "Name": "mod medic killed minicrit boost",
+    "Description": "When the medic healing you is killed you gain mini-crit boost for %s1 seconds",
+    "Value type": "additive",
+    "Class": "medic_killed_minicrit_boost",
+    "Notes": "Unused"
+  },
+  "233": {
+    "Name": "mod medic healed damage bonus",
+    "Description": "While a medic is healing you, this weapon's damage is increased by %s1%",
+    "Value type": "percentage",
+    "Class": "medic_healed_damage_bonus",
+    "Notes": "Unused"
+  },
+  "234": {
+    "Name": "mod medic healed deploy time penalty",
+    "Description": "While not being healed by a medic, your weapon switch time is %s1% longer",
+    "Value type": "percentage",
+    "Class": "mod_medic_healed_deploy_time",
+    "Notes": "Unused"
+  },
+  "235": {
+    "Name": "mod shovel speed boost",
+    "Description": "Move speed increases as the user becomes injured",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "236": {
+    "Name": "mod weapon blocks healing",
+    "Description": "Blocks healing while in use",
+    "Value type": "additive",
+    "Class": "weapon_blocks_healing",
+    "Notes": "Unused"
+  },
+  "237": {
+    "Name": "mult sniper charge after headshot",
+    "Description": "On Scoped Headshot: Rifle charge rate increased by %s1%",
+    "Value type": "percentage",
+    "Class": "mult_sniper_charge_after_headshot",
+    "Notes": "Unused"
+  },
+  "238": {
+    "Name": "minigun no spin sounds",
+    "Description": "Silent Killer: No barrel spin sound",
+    "Value type": "additive",
+    "Class": "minigun_no_spin_sounds",
+    "Notes": ""
+  },
+  "239": {
+    "Name": "ubercharge rate bonus for healer",
+    "Description": "+%s1% ÜberCharge rate for the medic healing you This effect does not work in the respawn room",
+    "Value type": "percentage",
+    "Class": "mult_uberchargerate_for_healer",
+    "Notes": "Unused"
+  },
+  "240": {
+    "Name": "reload time decreased while healed",
+    "Description": "%s1% faster reload time while being healed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_reload_time_while_healed",
+    "Notes": "Unused"
+  },
+  "241": {
+    "Name": "reload time increased hidden",
+    "Description": "%s1% slower reload time",
+    "Value type": "percentage",
+    "Class": "mult_reload_time_hidden",
+    "Notes": "Hidden"
+  },
+  "242": {
+    "Name": "mod medic killed marked for death",
+    "Description": "When the medic healing you is killed the killer becomes Marked-For-Death",
+    "Value type": "additive",
+    "Class": "medic_killed_marked_for_death",
+    "Notes": "Unused"
+  },
+  "243": {
+    "Name": "mod rage on hit penalty",
+    "Description": "%s1% rage lost on hit",
+    "Value type": "additive",
+    "Class": "rage_on_hit",
+    "Notes": "Unused"
+  },
+  "244": {
+    "Name": "mod rage on hit bonus",
+    "Description": "%s1% rage gained on hit",
+    "Value type": "additive",
+    "Class": "rage_on_hit",
+    "Notes": "Unused"
+  },
+  "245": {
+    "Name": "mod rage damage boost",
+    "Description": "Gains a damage bonus as rage increases, up to %s1%",
+    "Value type": "percentage",
+    "Class": "rage_damage",
+    "Notes": "Unused"
+  },
+  "246": {
+    "Name": "mult charge turn control",
+    "Description": "+%s1% increase in turning control while charging",
+    "Value type": "percentage",
+    "Class": "charge_turn_control",
+    "Notes": ""
+  },
+  "247": {
+    "Name": "no charge impact range",
+    "Description": "Can deal charge impact damage at any range",
+    "Value type": "additive",
+    "Class": "no_charge_impact_range",
+    "Notes": "Unused"
+  },
+  "248": {
+    "Name": "charge impact damage increased",
+    "Description": "+%s1% increase in charge impact damage",
+    "Value type": "percentage",
+    "Class": "charge_impact_damage",
+    "Notes": ""
+  },
+  "249": {
+    "Name": "charge recharge rate increased",
+    "Description": "+%s1% increase in charge recharge rate",
+    "Value type": "percentage",
+    "Class": "charge_recharge_rate",
+    "Notes": ""
+  },
+  "250": {
+    "Name": "air dash count",
+    "Description": "Grants Triple Jump while deployed. Melee attacks mini-crit while airborne.",
+    "Value type": "additive",
+    "Class": "air_dash_count",
+    "Notes": ""
+  },
+  "251": {
+    "Name": "speed buff ally",
+    "Description": "On Hit Teammate: Boosts both players' speed for several seconds",
+    "Value type": "additive",
+    "Class": "speed_buff_ally",
+    "Notes": ""
+  },
+  "252": {
+    "Name": "damage force reduction",
+    "Description": "%s1% reduction in push force taken from damage",
+    "Value type": "percentage",
+    "Class": "damage_force_reduction",
+    "Notes": ""
+  },
+  "253": {
+    "Name": "mult cloak rate",
+    "Description": "%s1 sec increase in time to cloak",
+    "Value type": "additive",
+    "Class": "mult_cloak_rate",
+    "Notes": "Unused"
+  },
+  "255": {
+    "Name": "airblast pushback scale",
+    "Description": "+%s1% airblast push force",
+    "Value type": "percentage",
+    "Class": "airblast_pushback_scale",
+    "Notes": ""
+  },
+  "256": {
+    "Name": "mult airblast refire time",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mult_airblast_refire_time",
+    "Notes": "Hidden\nUnused"
+  },
+  "257": {
+    "Name": "airblast vertical pushback scale",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "airblast_vertical_pushback_scale",
+    "Notes": "Hidden"
+  },
+  "258": {
+    "Name": "ammo becomes health",
+    "Description": "Ammo collected from ammo boxes becomes health",
+    "Value type": "additive",
+    "Class": "ammo_becomes_health",
+    "Notes": "Unused"
+  },
+  "259": {
+    "Name": "boots falling stomp",
+    "Description": "Deals 3x falling damage to the player you land on",
+    "Value type": "additive",
+    "Class": "boots_falling_stomp",
+    "Notes": ""
+  },
+  "260": {
+    "Name": "deflection size multiplier",
+    "Description": "Attrib_DeflectionSizeMultiplier",
+    "Value type": "additive",
+    "Class": "deflection_size_multiplier",
+    "Notes": "Unused"
+  },
+  "261": {
+    "Name": "set item tint RGB 2",
+    "Description": "Item tint color code: %s1",
+    "Value type": "additive",
+    "Class": "set_item_tint_rgb_2",
+    "Notes": "Hidden"
+  },
+  "262": {
+    "Name": "saxxy award category",
+    "Description": "Winner: %s1 %s2",
+    "Value type": "additive",
+    "Class": "saxxy_award_category",
+    "Notes": "Hidden\nUnused"
+  },
+  "263": {
+    "Name": "melee bounds multiplier",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "melee_bounds_multiplier",
+    "Notes": "Hidden"
+  },
+  "264": {
+    "Name": "melee range multiplier",
+    "Description": "%s1% increased melee attack range",
+    "Value type": "percentage",
+    "Class": "melee_range_multiplier",
+    "Notes": "Hidden"
+  },
+  "265": {
+    "Name": "mod mini-crit airborne deploy",
+    "Description": "Attrib_MiniCritAirborneEnemiesDeploy",
+    "Value type": "additive",
+    "Class": "mini_crit_airborne_deploy",
+    "Notes": "Unused"
+  },
+  "266": {
+    "Name": "projectile penetration",
+    "Description": "Projectiles penetrate enemy players",
+    "Value type": "additive",
+    "Class": "projectile_penetration",
+    "Notes": ""
+  },
+  "267": {
+    "Name": "mod crit while airborne",
+    "Description": "Deals crits while the wielder is rocket jumping",
+    "Value type": "additive",
+    "Class": "crit_while_airborne",
+    "Notes": ""
+  },
+  "268": {
+    "Name": "mult sniper charge penalty DISPLAY ONLY",
+    "Description": "Base charge rate decreased by %s1%",
+    "Value type": "percentage",
+    "Class": "mult_sniper_charge_base_dummy",
+    "Notes": ""
+  },
+  "269": {
+    "Name": "mod see enemy health",
+    "Description": "Allows you to see enemy health",
+    "Value type": "additive",
+    "Class": "see_enemy_health",
+    "Notes": ""
+  },
+  "270": {
+    "Name": "powerup max charges",
+    "Description": "Holds a maximum of %s1 charges",
+    "Value type": "additive",
+    "Class": "powerup_max_charges",
+    "Notes": ""
+  },
+  "271": {
+    "Name": "powerup charges",
+    "Description": "Currently holds %s1 charges",
+    "Value type": "additive",
+    "Class": "powerup_charges",
+    "Notes": ""
+  },
+  "272": {
+    "Name": "powerup duration",
+    "Description": "Each charge lasts %s1 seconds",
+    "Value type": "additive",
+    "Class": "powerup_duration",
+    "Notes": ""
+  },
+  "273": {
+    "Name": "critboost",
+    "Description": "Consumable: Become Crit Boosted for 5 seconds (and double your sentry's firing speed)",
+    "Value type": "additive",
+    "Class": "critboost",
+    "Notes": ""
+  },
+  "274": {
+    "Name": "ubercharge",
+    "Description": "Consumable: Become Übercharged for 5 seconds (and shield your sentry from damage)",
+    "Value type": "additive",
+    "Class": "ubercharge",
+    "Notes": ""
+  },
+  "275": {
+    "Name": "cancel falling damage",
+    "Description": "Wearer never takes falling damage",
+    "Value type": "additive",
+    "Class": "cancel_falling_damage",
+    "Notes": "Unused"
+  },
+  "276": {
+    "Name": "bidirectional teleport",
+    "Description": "Teleporters can be used in both directions",
+    "Value type": "additive",
+    "Class": "bidirectional_teleport",
+    "Notes": ""
+  },
+  "277": {
+    "Name": "multiple sentries",
+    "Description": "Attrib_MultipleSentries",
+    "Value type": "additive",
+    "Class": "multiple_sentries",
+    "Notes": "Unused"
+  },
+  "278": {
+    "Name": "effect bar recharge rate increased",
+    "Description": "+%s1% increase in recharge rate",
+    "Value type": "inverted_percentage",
+    "Class": "effectbar_recharge_rate",
+    "Notes": ""
+  },
+  "279": {
+    "Name": "maxammo grenades1 increased",
+    "Description": "+%s1% max misc ammo on wearer",
+    "Value type": "percentage",
+    "Class": "mult_maxammo_grenades1",
+    "Notes": "Unused"
+  },
+  "280": {
+    "Name": "override projectile type",
+    "Description": "Overrides the projectile fired from the weapon. Takes values from 1 to 26, each representing a different projectile, and not all projectiles work on all weapons",
+    "Value type": "additive",
+    "Class": "override_projectile_type",
+    "Notes": ""
+  },
+  "281": {
+    "Name": "energy weapon no ammo",
+    "Description": "Does not require ammo",
+    "Value type": "additive",
+    "Class": "energy_weapon_no_ammo",
+    "Notes": ""
+  },
+  "282": {
+    "Name": "energy weapon charged shot",
+    "Description": "Alt-Fire: A charged shot that mini-crits players, sets them on fire, and disables buildings for 4 sec",
+    "Value type": "additive",
+    "Class": "energy_weapon_charged_shot",
+    "Notes": ""
+  },
+  "283": {
+    "Name": "energy weapon penetration",
+    "Description": "Projectile penetrates enemy targets",
+    "Value type": "additive",
+    "Class": "energy_weapon_penetration",
+    "Notes": ""
+  },
+  "284": {
+    "Name": "energy weapon no hurt building",
+    "Description": "Deals only 20% damage to buildings",
+    "Value type": "additive",
+    "Class": "energy_weapon_no_hurt_building",
+    "Notes": ""
+  },
+  "285": {
+    "Name": "energy weapon no deflect",
+    "Description": "Projectile cannot be deflected",
+    "Value type": "additive",
+    "Class": "energy_weapon_no_deflect",
+    "Notes": ""
+  },
+  "286": {
+    "Name": "engy building health bonus",
+    "Description": "+%s1% max building health",
+    "Value type": "percentage",
+    "Class": "mult_engy_building_health",
+    "Notes": ""
+  },
+  "287": {
+    "Name": "engy sentry damage bonus",
+    "Description": "+%s1% Sentry Gun damage bonus",
+    "Value type": "percentage",
+    "Class": "mult_engy_sentry_damage",
+    "Notes": "Unused"
+  },
+  "288": {
+    "Name": "no crit boost",
+    "Description": "Cannot be crit boosted",
+    "Value type": "additive",
+    "Class": "no_crit_boost",
+    "Notes": "Unused"
+  },
+  "289": {
+    "Name": "centerfire projectile",
+    "Description": "Attrib_CenterFireProjectile",
+    "Value type": "additive",
+    "Class": "centerfire_projectile",
+    "Notes": "Hidden"
+  },
+  "292": {
+    "Name": "kill eater score type",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_score_type",
+    "Notes": "Hidden"
+  },
+  "293": {
+    "Name": "kill eater score type 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_score_type_2",
+    "Notes": "Hidden"
+  },
+  "294": {
+    "Name": "kill eater 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_2",
+    "Notes": "Hidden\nUnused"
+  },
+  "295": {
+    "Name": "has pipboy build interface",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "set_custom_buildmenu",
+    "Notes": "Hidden"
+  },
+  "296": {
+    "Name": "sapper kills collect crits",
+    "Description": "Gives one guaranteed critical hit for each building destroyed with your sapper attached or backstab kill",
+    "Value type": "additive",
+    "Class": "sapper_kills_collect_crits",
+    "Notes": ""
+  },
+  "297": {
+    "Name": "sniper only fire zoomed",
+    "Description": "Cannot fire unless zoomed",
+    "Value type": "additive",
+    "Class": "sniper_only_fire_zoomed",
+    "Notes": ""
+  },
+  "298": {
+    "Name": "mod ammo per shot",
+    "Description": "Per Shot: -%s1 ammo",
+    "Value type": "additive",
+    "Class": "mod_ammo_per_shot",
+    "Notes": ""
+  },
+  "299": {
+    "Name": "add onhit addammo",
+    "Description": "On Hit: damage dealt is returned as ammo",
+    "Value type": "additive",
+    "Class": "add_onhit_addammo",
+    "Notes": ""
+  },
+  "300": {
+    "Name": "electrical airblast DISPLAY ONLY",
+    "Description": "Alt-Fire: Launches a projectile-consuming energy ball.  Costs 65 metal.",
+    "Value type": "additive_percentage",
+    "Class": "electrical_airblast_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "301": {
+    "Name": "mod use metal ammo type",
+    "Description": "Uses metal for ammo",
+    "Value type": "additive",
+    "Class": "mod_use_metal_ammo_type",
+    "Notes": ""
+  },
+  "302": {
+    "Name": "expiration date",
+    "Description": "This item will expire on %s1.",
+    "Value type": "date",
+    "Class": "expiration_date",
+    "Notes": "Hidden\nUnused"
+  },
+  "303": {
+    "Name": "mod max primary clip override",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "mod_max_primary_clip_override",
+    "Notes": "Hidden"
+  },
+  "304": {
+    "Name": "sniper full charge damage bonus",
+    "Description": "On Full Charge: +%s1% damage per shot",
+    "Value type": "percentage",
+    "Class": "sniper_full_charge_damage_bonus",
+    "Notes": ""
+  },
+  "305": {
+    "Name": "sniper fires tracer",
+    "Description": "Fires tracer rounds",
+    "Value type": "additive",
+    "Class": "sniper_fires_tracer",
+    "Notes": ""
+  },
+  "306": {
+    "Name": "sniper no headshot without full charge",
+    "Description": "No headshots when not fully charged",
+    "Value type": "additive",
+    "Class": "sniper_no_headshot_without_full_charge",
+    "Notes": ""
+  },
+  "307": {
+    "Name": "mod no reload DISPLAY ONLY",
+    "Description": "No reload necessary",
+    "Value type": "additive",
+    "Class": "mod_no_reload_display_only",
+    "Notes": ""
+  },
+  "308": {
+    "Name": "sniper penetrate players when charged",
+    "Description": "On Full Charge: Projectiles penetrate players",
+    "Value type": "additive",
+    "Class": "sniper_penetrate_players_when_charged",
+    "Notes": ""
+  },
+  "309": {
+    "Name": "crit kill will gib",
+    "Description": "Killing an enemy with a critical hit will dismember your victim. Painfully.",
+    "Value type": "additive",
+    "Class": "crit_kill_will_gib",
+    "Notes": ""
+  },
+  "310": {
+    "Name": "recall",
+    "Description": "Consumable: Instantly teleport to spawn",
+    "Value type": "additive",
+    "Class": "recall",
+    "Notes": ""
+  },
+  "311": {
+    "Name": "unlimited quantity",
+    "Description": "Unlimited use",
+    "Value type": "additive",
+    "Class": "unlimited_quantity",
+    "Notes": ""
+  },
+  "312": {
+    "Name": "disable weapon hiding for animations",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "disable_weapon_hiding_for_animations",
+    "Notes": "Hidden"
+  },
+  "313": {
+    "Name": "applies snare effect",
+    "Description": "%s1% movement speed on targets",
+    "Value type": "percentage",
+    "Class": "applies_snare_effect",
+    "Notes": "Hidden\nUnused"
+  },
+  "314": {
+    "Name": "uber duration bonus",
+    "Description": "Über duration increased %s1 seconds",
+    "Value type": "additive",
+    "Class": "add_uber_time",
+    "Notes": ""
+  },
+  "315": {
+    "Name": "refill_ammo",
+    "Description": "Consumable: Instantly refill all weapon clips and ammo",
+    "Value type": "additive",
+    "Class": "refill_ammo",
+    "Notes": ""
+  },
+  "317": {
+    "Name": "store sort override DEPRECATED",
+    "Description": "Attrib_AlternateRocketEffect",
+    "Value type": "additive",
+    "Class": "store_sort_override_DEPRECATED",
+    "Notes": "Hidden\nUnused"
+  },
+  "318": {
+    "Name": "faster reload rate",
+    "Description": "+%s1% faster reload time",
+    "Value type": "inverted_percentage",
+    "Class": "fast_reload",
+    "Notes": ""
+  },
+  "319": {
+    "Name": "increase buff duration",
+    "Description": "+%s1% buff duration",
+    "Value type": "percentage",
+    "Class": "mod_buff_duration",
+    "Notes": ""
+  },
+  "320": {
+    "Name": "robo sapper",
+    "Description": "Increased robot Sapper radius and duration",
+    "Value type": "additive",
+    "Class": "robo_sapper",
+    "Notes": ""
+  },
+  "321": {
+    "Name": "build rate bonus",
+    "Description": "+%s1% faster build speed",
+    "Value type": "inverted_percentage",
+    "Class": "mod_build_rate",
+    "Notes": "Unused"
+  },
+  "322": {
+    "Name": "taunt is press and hold",
+    "Description": "%s1% damage penalty",
+    "Value type": "additive",
+    "Class": "enable_misc2_holdtaunt",
+    "Notes": "Hidden"
+  },
+  "323": {
+    "Name": "attack projectiles",
+    "Description": "Bullets destroy rockets and grenades in-flight.  Increased accuracy and frequency per-level.",
+    "Value type": "additive",
+    "Class": "attack_projectiles",
+    "Notes": ""
+  },
+  "324": {
+    "Name": "accuracy scales damage",
+    "Description": "Accuracy scales damage",
+    "Value type": "percentage",
+    "Class": "accuracy_scales_damage",
+    "Notes": "Unused"
+  },
+  "325": {
+    "Name": "currency bonus",
+    "Description": "+%s1% bonus currency from packs",
+    "Value type": "percentage",
+    "Class": "currency_bonus",
+    "Notes": "Unused"
+  },
+  "326": {
+    "Name": "increased jump height",
+    "Description": "+%s1% greater jump height when active",
+    "Value type": "percentage",
+    "Class": "mod_jump_height",
+    "Notes": ""
+  },
+  "327": {
+    "Name": "building instant upgrade",
+    "Description": "Consumable: Instantly upgrade all buildings to max level",
+    "Value type": "additive",
+    "Class": "building_instant_upgrade",
+    "Notes": ""
+  },
+  "328": {
+    "Name": "disable fancy class select anim",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "disable_fancy_class_select_anim",
+    "Notes": "Hidden"
+  },
+  "329": {
+    "Name": "airblast vulnerability multiplier",
+    "Description": "%s1% reduction in airblast vulnerability",
+    "Value type": "percentage",
+    "Class": "airblast_vulnerability_multiplier",
+    "Notes": ""
+  },
+  "330": {
+    "Name": "override footstep sound set",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "override_footstep_sound_set",
+    "Notes": "Hidden"
+  },
+  "331": {
+    "Name": "spawn with physics toy",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "spawn_with_physics_toy",
+    "Notes": "Hidden\nUnused"
+  },
+  "332": {
+    "Name": "fish damage override",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "fish_damage_override",
+    "Notes": "Hidden"
+  },
+  "333": {
+    "Name": "SET BONUS: special dsp",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "special_dsp",
+    "Notes": "Hidden\nUnused"
+  },
+  "334": {
+    "Name": "bombinomicon effect on death",
+    "Description": "Explode spectacularly on death",
+    "Value type": "additive",
+    "Class": "bombinomicon_effect_on_death",
+    "Notes": ""
+  },
+  "335": {
+    "Name": "clip size bonus upgrade",
+    "Description": "+%s1% clip size",
+    "Value type": "percentage",
+    "Class": "mult_clipsize_upgrade",
+    "Notes": ""
+  },
+  "336": {
+    "Name": "hide enemy health",
+    "Description": "Unable to see enemy health",
+    "Value type": "additive",
+    "Class": "hide_enemy_health",
+    "Notes": "Unused"
+  },
+  "337": {
+    "Name": "subtract victim medigun charge on hit",
+    "Description": "On Hit: Victim loses up to %s1% Medigun charge",
+    "Value type": "additive",
+    "Class": "subtract_victim_medigun_charge_onhit",
+    "Notes": ""
+  },
+  "338": {
+    "Name": "subtract victim cloak on hit",
+    "Description": "On Hit: Victim loses up to %s1% cloak",
+    "Value type": "additive",
+    "Class": "subtract_victim_cloak_on_hit",
+    "Notes": ""
+  },
+  "339": {
+    "Name": "reveal cloaked victim on hit",
+    "Description": "On Hit Spy: Reveal cloaked Spy",
+    "Value type": "additive",
+    "Class": "reveal_cloaked_victim_on_hit",
+    "Notes": "Unused"
+  },
+  "340": {
+    "Name": "reveal disguised victim on hit",
+    "Description": "On Hit Spy: Reveal disguised Spy",
+    "Value type": "additive",
+    "Class": "reveal_disguised_victim_on_hit",
+    "Notes": "Unused"
+  },
+  "341": {
+    "Name": "jarate backstabber",
+    "Description": "When backstabbed: Jarate attacker",
+    "Value type": "additive",
+    "Class": "jarate_backstabber",
+    "Notes": "Unused"
+  },
+  "343": {
+    "Name": "engy sentry fire rate increased",
+    "Description": "+%s1% sentry firing speed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_sentry_firerate",
+    "Notes": ""
+  },
+  "344": {
+    "Name": "engy sentry radius increased",
+    "Description": "+%s1% sentry range",
+    "Value type": "percentage",
+    "Class": "mult_sentry_range",
+    "Notes": "Unused"
+  },
+  "345": {
+    "Name": "engy dispenser radius increased",
+    "Description": "+%s1% dispenser range",
+    "Value type": "percentage",
+    "Class": "mult_dispenser_radius",
+    "Notes": ""
+  },
+  "346": {
+    "Name": "mod bat launches ornaments",
+    "Description": "Alt-Fire: Launches a festive ornament that shatters causing bleed",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "347": {
+    "Name": "freeze backstab victim",
+    "Description": "Backstab turns victim to ice",
+    "Value type": "additive",
+    "Class": "freeze_backstab_victim",
+    "Notes": ""
+  },
+  "348": {
+    "Name": "fire rate penalty HIDDEN",
+    "Description": "",
+    "Value type": "inverted_percentage",
+    "Class": "mult_postfiredelay",
+    "Notes": "Hidden"
+  },
+  "349": {
+    "Name": "energy weapon no drain",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "energy_weapon_no_drain",
+    "Notes": "Hidden\nUnused"
+  },
+  "350": {
+    "Name": "ragdolls become ash",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "ragdolls_become_ash",
+    "Notes": "Hidden"
+  },
+  "351": {
+    "Name": "engy disposable sentries",
+    "Description": "Build +%s1 additional disposable-sentry",
+    "Value type": "additive",
+    "Class": "engy_disposable_sentries",
+    "Notes": ""
+  },
+  "352": {
+    "Name": "alt fire teleport to spawn",
+    "Description": "Press your reload key to choose to teleport to spawn or your exit teleporter",
+    "Value type": "additive",
+    "Class": "alt_fire_teleport_to_spawn",
+    "Notes": ""
+  },
+  "353": {
+    "Name": "cannot pick up buildings",
+    "Description": "Cannot carry buildings",
+    "Value type": "additive",
+    "Class": "cannot_pick_up_buildings",
+    "Notes": "Unused"
+  },
+  "354": {
+    "Name": "stun enemies wielding same weapon",
+    "Description": "Stuns enemies who are also wielding this weapon",
+    "Value type": "additive",
+    "Class": "stun_enemies_wielding_same_weapon",
+    "Notes": "Unused"
+  },
+  "355": {
+    "Name": "mod ammo per shot missed DISPLAY ONLY",
+    "Description": "Per Shot Missed: -%s1 ammo",
+    "Value type": "additive",
+    "Class": "mod_ammo_per_shot_missed_DISPLAY_ONLY",
+    "Notes": "Unused"
+  },
+  "356": {
+    "Name": "airblast disabled",
+    "Description": "No airblast",
+    "Value type": "additive",
+    "Class": "airblast_disabled",
+    "Notes": ""
+  },
+  "357": {
+    "Name": "increase buff duration HIDDEN",
+    "Description": "+%s1% buff duration",
+    "Value type": "percentage",
+    "Class": "mod_buff_duration",
+    "Notes": "Hidden\nUnused"
+  },
+  "358": {
+    "Name": "crit forces victim to laugh",
+    "Description": "Critical hit forces victim to laugh",
+    "Value type": "additive",
+    "Class": "crit_forces_victim_to_laugh",
+    "Notes": ""
+  },
+  "359": {
+    "Name": "melts in fire",
+    "Description": "Melts in fire, regenerates in %s1 seconds and by picking up ammo",
+    "Value type": "additive",
+    "Class": "melts_in_fire",
+    "Notes": ""
+  },
+  "360": {
+    "Name": "damage all connected",
+    "Description": "All players connected via Medigun beams are hit",
+    "Value type": "additive",
+    "Class": "damage_all_connected",
+    "Notes": ""
+  },
+  "361": {
+    "Name": "become fireproof on hit by fire",
+    "Description": "On Hit by Fire: Fireproof for 1 second and Afterburn immunity for %s1 seconds",
+    "Value type": "additive",
+    "Class": "become_fireproof_on_hit_by_fire",
+    "Notes": ""
+  },
+  "362": {
+    "Name": "crit from behind",
+    "Description": "Always critical hit from behind",
+    "Value type": "additive",
+    "Class": "crit_from_behind",
+    "Notes": ""
+  },
+  "363": {
+    "Name": "crit does no damage",
+    "Description": "Critical hits do no damage",
+    "Value type": "additive",
+    "Class": "crit_does_no_damage",
+    "Notes": ""
+  },
+  "364": {
+    "Name": "add jingle to footsteps",
+    "Description": "Jingle all the way",
+    "Value type": "additive",
+    "Class": "add_jingle_to_footsteps",
+    "Notes": ""
+  },
+  "365": {
+    "Name": "set icicle knife mode",
+    "Description": "Attrib_SetIcicleKnifeMode",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": "Hidden"
+  },
+  "366": {
+    "Name": "mod stun waist high airborne",
+    "Description": "On Hit: If enemy's belt is at or above eye level, stun them for %s1 seconds",
+    "Value type": "additive",
+    "Class": "stun_waist_high_airborne",
+    "Notes": "Unused"
+  },
+  "367": {
+    "Name": "extinguish earns revenge crits",
+    "Description": "Alt-Fire: Extinguish teammates to gain guaranteed critical hits",
+    "Value type": "additive",
+    "Class": "extinguish_revenge",
+    "Notes": ""
+  },
+  "368": {
+    "Name": "burn damage earns rage",
+    "Description": "Build 'Mmmph' by dealing damage. Alt-Fire on full 'Mmmph': Taunt to gain crits for several seconds. Invulnerable while 'Mmmph' taunting.",
+    "Value type": "additive",
+    "Class": "burn_damage_earns_rage",
+    "Notes": ""
+  },
+  "369": {
+    "Name": "tickle enemies wielding same weapon",
+    "Description": "On Hit: Force enemies to laugh who are also wearing this item",
+    "Value type": "additive",
+    "Class": "tickle_enemies_wielding_same_weapon",
+    "Notes": ""
+  },
+  "370": {
+    "Name": "attach particle effect static",
+    "Description": "",
+    "Value type": "particle_index",
+    "Class": "set_attached_particle_static",
+    "Notes": ""
+  },
+  "371": {
+    "Name": "cosmetic taunt sound",
+    "Description": "Attrib_TauntSoundSuccess",
+    "Value type": "additive",
+    "Class": "cosmetic_taunt_sound",
+    "Notes": ""
+  },
+  "372": {
+    "Name": "accepted wedding ring account id 1",
+    "Description": "A perpetual bond of commitment between %s1",
+    "Value type": "account_id",
+    "Class": "accepted_wedding_ring_account_id_1",
+    "Notes": "Unused"
+  },
+  "373": {
+    "Name": "accepted wedding ring account id 2",
+    "Description": "and %s1, forever and ever and ever. XoXoX",
+    "Value type": "account_id",
+    "Class": "accepted_wedding_ring_account_id_2",
+    "Notes": "Unused"
+  },
+  "374": {
+    "Name": "tool escrow until date",
+    "Description": "Usable After: %s1",
+    "Value type": "date",
+    "Class": "tool_escrow_until_date",
+    "Notes": "Hidden\nUnused"
+  },
+  "375": {
+    "Name": "generate rage on damage",
+    "Description": "Generate Rage by dealing damage.  When fully charged, press the Special-Attack key to activate knockback",
+    "Value type": "additive",
+    "Class": "generate_rage_on_dmg",
+    "Notes": ""
+  },
+  "376": {
+    "Name": "aiming no flinch",
+    "Description": "No flinching when aiming and fully charged",
+    "Value type": "additive",
+    "Class": "aiming_no_flinch",
+    "Notes": ""
+  },
+  "377": {
+    "Name": "aiming knockback resistance",
+    "Description": "Knockback reduced by %s1% when aiming",
+    "Value type": "inverted_percentage",
+    "Class": "mult_aiming_knockback_resistance",
+    "Notes": ""
+  },
+  "378": {
+    "Name": "sniper aiming movespeed decreased",
+    "Description": "%s1% slower move speed when aiming",
+    "Value type": "percentage",
+    "Class": "mult_player_aiming_movespeed",
+    "Notes": "Unused"
+  },
+  "379": {
+    "Name": "kill eater user 1",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_user_1",
+    "Notes": "Hidden\nUnused"
+  },
+  "380": {
+    "Name": "kill eater user score type 1",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_user_score_type_1",
+    "Notes": "Hidden\nUnused"
+  },
+  "381": {
+    "Name": "kill eater user 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_user_2",
+    "Notes": "Hidden\nUnused"
+  },
+  "382": {
+    "Name": "kill eater user score type 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_user_score_type_2",
+    "Notes": "Hidden\nUnused"
+  },
+  "383": {
+    "Name": "kill eater user 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_user_3",
+    "Notes": "Hidden\nUnused"
+  },
+  "384": {
+    "Name": "kill eater user score type 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_user_score_type_3",
+    "Notes": "Hidden\nUnused"
+  },
+  "385": {
+    "Name": "strange part new counter ID",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_part_new_counter_id",
+    "Notes": "Hidden"
+  },
+  "386": {
+    "Name": "mvm completed challenges bitmask",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "mvm_completed_challenges_bitmask",
+    "Notes": "Hidden\nUnused"
+  },
+  "387": {
+    "Name": "rage on kill",
+    "Description": "Gain Focus on kills and assists",
+    "Value type": "additive",
+    "Class": "rage_on_kill",
+    "Notes": ""
+  },
+  "388": {
+    "Name": "kill eater kill type",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_kill_type",
+    "Notes": "Hidden"
+  },
+  "389": {
+    "Name": "shot penetrate all players",
+    "Description": "Shots go through multiple enemies",
+    "Value type": "additive",
+    "Class": "shot_penetrate_all_players",
+    "Notes": "Unused"
+  },
+  "390": {
+    "Name": "headshot damage increase",
+    "Description": "Headshots deal an extra +%s1% damage",
+    "Value type": "percentage",
+    "Class": "headshot_damage_modify",
+    "Notes": "Unused"
+  },
+  "391": {
+    "Name": "SET BONUS: mystery solving time decrease",
+    "Description": "Reduces mystery solving time by up to %s1%",
+    "Value type": "percentage",
+    "Class": "mystery_solving_time_decrease",
+    "Notes": ""
+  },
+  "392": {
+    "Name": "damage penalty on bodyshot",
+    "Description": "%s1% damage on body shot",
+    "Value type": "percentage",
+    "Class": "bodyshot_damage_modify",
+    "Notes": ""
+  },
+  "393": {
+    "Name": "sniper rage DISPLAY ONLY",
+    "Description": "Press 'Reload' to activate focus In Focus: +25% faster charge and no unscoping",
+    "Value type": "additive",
+    "Class": "sniper_rage_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "394": {
+    "Name": "fire rate bonus HIDDEN",
+    "Description": "+%s1% faster firing speed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_postfiredelay",
+    "Notes": "Hidden"
+  },
+  "395": {
+    "Name": "explosive sniper shot",
+    "Description": "Increased headshot explosion radius and damage to nearby enemies",
+    "Value type": "additive",
+    "Class": "explosive_sniper_shot",
+    "Notes": ""
+  },
+  "396": {
+    "Name": "melee attack rate bonus",
+    "Description": "+%s1% faster melee attack speed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_postfiredelay",
+    "Notes": ""
+  },
+  "397": {
+    "Name": "projectile penetration heavy",
+    "Description": "Bullets penetrate +%s1 enemies",
+    "Value type": "additive",
+    "Class": "projectile_penetration",
+    "Notes": ""
+  },
+  "398": {
+    "Name": "rage on assists",
+    "Description": "Attrib_RageGainOnAssists",
+    "Value type": "additive",
+    "Class": "rage_on_assists",
+    "Notes": ""
+  },
+  "399": {
+    "Name": "armor piercing",
+    "Description": "Increase backstab damage against Giant Robots by %s1%",
+    "Value type": "additive",
+    "Class": "armor_piercing",
+    "Notes": ""
+  },
+  "400": {
+    "Name": "cannot pick up intelligence",
+    "Description": "Wearer cannot carry the intelligence briefcase or PASS Time JACK",
+    "Value type": "additive",
+    "Class": "cannot_pick_up_intelligence",
+    "Notes": ""
+  },
+  "401": {
+    "Name": "SET BONUS: chance of hunger decrease",
+    "Description": "Reduces chance of hunger by up to %s1%",
+    "Value type": "percentage",
+    "Class": "chance_of_hunger_decrease",
+    "Notes": ""
+  },
+  "402": {
+    "Name": "cannot be backstabbed",
+    "Description": "Cannot be backstabbed",
+    "Value type": "additive",
+    "Class": "cannot_be_backstabbed",
+    "Notes": "Unused"
+  },
+  "403": {
+    "Name": "squad surplus claimer id DEPRECATED",
+    "Description": "Squad surplus claimed by: %s1",
+    "Value type": "account_id",
+    "Class": "squad_surplus_claimer_account_id_DEPRECATED",
+    "Notes": "Hidden\nUnused"
+  },
+  "404": {
+    "Name": "share consumable with patient",
+    "Description": "Using your Power Up Canteen will apply the same bonus effect to your heal target",
+    "Value type": "additive",
+    "Class": "share_consumable_with_patient",
+    "Notes": ""
+  },
+  "405": {
+    "Name": "airblast vertical vulnerability multiplier",
+    "Description": "Attrib_AirBlastVerticalVulnerabilityMultipier",
+    "Value type": "percentage",
+    "Class": "airblast_vertical_vulnerability_multiplier",
+    "Notes": ""
+  },
+  "406": {
+    "Name": "vision opt in flags",
+    "Description": "",
+    "Value type": "or",
+    "Class": "vision_opt_in_flags",
+    "Notes": ""
+  },
+  "407": {
+    "Name": "crit vs disguised players",
+    "Description": "100% critical hit vs disguised players",
+    "Value type": "or",
+    "Class": "or_crit_vs_playercond",
+    "Notes": "Unused"
+  },
+  "408": {
+    "Name": "crit vs non burning players",
+    "Description": "100% critical hit vs non-burning players",
+    "Value type": "or",
+    "Class": "or_crit_vs_not_playercond",
+    "Notes": "Unused"
+  },
+  "409": {
+    "Name": "kill forces attacker to laugh",
+    "Description": "On Kill: Burst into joyous laughter",
+    "Value type": "additive",
+    "Class": "kill_forces_attacker_to_laugh",
+    "Notes": "Unused"
+  },
+  "410": {
+    "Name": "damage bonus while disguised",
+    "Description": "+%s1% damage bonus while disguised",
+    "Value type": "percentage",
+    "Class": "mult_dmg_disguised",
+    "Notes": ""
+  },
+  "411": {
+    "Name": "projectile spread angle penalty",
+    "Description": "+%s1 degrees random projectile deviation",
+    "Value type": "additive",
+    "Class": "projectile_spread_angle",
+    "Notes": ""
+  },
+  "412": {
+    "Name": "dmg taken increased",
+    "Description": "%s1% damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken",
+    "Notes": ""
+  },
+  "413": {
+    "Name": "auto fires full clip",
+    "Description": "Hold Fire to load up to three rockets Release Fire to unleash the barrage",
+    "Value type": "additive",
+    "Class": "auto_fires_full_clip",
+    "Notes": ""
+  },
+  "414": {
+    "Name": "self mark for death",
+    "Description": "You are Marked-For-Death while active, and for short period after switching weapons",
+    "Value type": "additive",
+    "Class": "self_mark_for_death",
+    "Notes": ""
+  },
+  "415": {
+    "Name": "counts as assister is some kind of pet this update is going to be awesome",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "counts_as_assister",
+    "Notes": "Hidden"
+  },
+  "416": {
+    "Name": "mod flaregun fires pellets with knockback",
+    "Description": "Flare knocks back target on hit and explodes when it hits the ground. Increased knock back on burning players",
+    "Value type": "additive",
+    "Class": "set_weapon_mode",
+    "Notes": ""
+  },
+  "417": {
+    "Name": "can overload",
+    "Description": "Overloading the chamber will cause a misfire",
+    "Value type": "additive",
+    "Class": "can_overload",
+    "Notes": ""
+  },
+  "418": {
+    "Name": "boost on damage",
+    "Description": "On Hit: Builds Boost Run speed increased with Boostg",
+    "Value type": "additive",
+    "Class": "boost_on_damage",
+    "Notes": ""
+  },
+  "419": {
+    "Name": "hype resets on jump",
+    "Description": "Boost reduced on air jumps",
+    "Value type": "additive",
+    "Class": "hype_resets_on_jump",
+    "Notes": ""
+  },
+  "420": {
+    "Name": "pyro year number",
+    "Description": "Witnessed the %s1 inferno",
+    "Value type": "additive",
+    "Class": "pyro_year_number",
+    "Notes": ""
+  },
+  "421": {
+    "Name": "no primary ammo from dispensers while active",
+    "Description": "No ammo from dispensers when active",
+    "Value type": "additive",
+    "Class": "no_primary_ammo_from_dispensers",
+    "Notes": ""
+  },
+  "422": {
+    "Name": "pyrovision only DISPLAY ONLY",
+    "Description": "Only visible in Pyroland",
+    "Value type": "additive",
+    "Class": "pyrovision_only_display",
+    "Notes": ""
+  },
+  "424": {
+    "Name": "clip size penalty HIDDEN",
+    "Description": "%s1% clip size",
+    "Value type": "percentage",
+    "Class": "mult_clipsize",
+    "Notes": "Hidden"
+  },
+  "425": {
+    "Name": "sapper damage bonus",
+    "Description": "+%s1% sapper damage bonus",
+    "Value type": "percentage",
+    "Class": "mult_sapper_damage",
+    "Notes": "Unused"
+  },
+  "426": {
+    "Name": "sapper damage penalty",
+    "Description": "%s1% sapper damage penalty",
+    "Value type": "percentage",
+    "Class": "mult_sapper_damage",
+    "Notes": ""
+  },
+  "427": {
+    "Name": "sapper damage leaches health",
+    "Description": "+%s1 health regenerated per second for each active sapper",
+    "Value type": "additive",
+    "Class": "sapper_damage_leaches_health",
+    "Notes": "Unused"
+  },
+  "428": {
+    "Name": "sapper health bonus",
+    "Description": "%s1% sapper health bonus",
+    "Value type": "percentage",
+    "Class": "mult_sapper_health",
+    "Notes": "Unused"
+  },
+  "429": {
+    "Name": "sapper health penalty",
+    "Description": "%s1% sapper health penalty",
+    "Value type": "percentage",
+    "Class": "mult_sapper_health",
+    "Notes": "Unused"
+  },
+  "430": {
+    "Name": "ring of fire while aiming",
+    "Description": "Creates a ring of flames while spun up",
+    "Value type": "additive",
+    "Class": "ring_of_fire_while_aiming",
+    "Notes": ""
+  },
+  "431": {
+    "Name": "uses ammo while aiming",
+    "Description": "Consumes an additional %s1 ammo per second while spun up",
+    "Value type": "additive",
+    "Class": "uses_ammo_while_aiming",
+    "Notes": ""
+  },
+  "433": {
+    "Name": "sapper degenerates buildings",
+    "Description": "Reverses enemy building construction",
+    "Value type": "additive",
+    "Class": "sapper_degenerates_buildings",
+    "Notes": ""
+  },
+  "434": {
+    "Name": "sapper damage penalty hidden",
+    "Description": "%s1% sapper damage penalty",
+    "Value type": "percentage",
+    "Class": "mult_sapper_damage",
+    "Notes": "Hidden\nUnused"
+  },
+  "435": {
+    "Name": "cleaver description",
+    "Description": "Throw at your enemies to make them bleed! Long distance hits reduce recharge time",
+    "Value type": "percentage",
+    "Class": "desc_cleaver_description",
+    "Notes": ""
+  },
+  "436": {
+    "Name": "ragdolls plasma effect",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "ragdolls_plasma_effect",
+    "Notes": "Hidden"
+  },
+  "437": {
+    "Name": "crit vs stunned players",
+    "Description": "100% critical hit vs stunned players",
+    "Value type": "or",
+    "Class": "or_crit_vs_playercond",
+    "Notes": "Unused"
+  },
+  "438": {
+    "Name": "crit vs wet players",
+    "Description": "100% critical hit vs wet players",
+    "Value type": "or",
+    "Class": "crit_vs_wet_players",
+    "Notes": ""
+  },
+  "439": {
+    "Name": "override item level desc string",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "override_item_level_desc_string",
+    "Notes": "Hidden\nUnused"
+  },
+  "440": {
+    "Name": "clip size upgrade atomic",
+    "Description": "+%s1 clip size",
+    "Value type": "additive",
+    "Class": "mult_clipsize_upgrade_atomic",
+    "Notes": ""
+  },
+  "441": {
+    "Name": "auto fires full clip all at once",
+    "Description": "Attrib_AutoFiresFullClipAllAtOnce",
+    "Value type": "additive",
+    "Class": "auto_fires_full_clip_all_at_once",
+    "Notes": "Unused"
+  },
+  "442": {
+    "Name": "major move speed bonus",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "major_mult_player_movespeed",
+    "Notes": "Unused"
+  },
+  "443": {
+    "Name": "major increased jump height",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "major_jump_height",
+    "Notes": "Unused"
+  },
+  "444": {
+    "Name": "head scale",
+    "Description": "Disables double jump",
+    "Value type": "percentage",
+    "Class": "head_scale",
+    "Notes": "Unused"
+  },
+  "445": {
+    "Name": "pyrovision opt in DISPLAY ONLY",
+    "Description": "On Equip: Visit Pyroland",
+    "Value type": "or",
+    "Class": "pyrovision_opt_in_display_only",
+    "Notes": ""
+  },
+  "446": {
+    "Name": "halloweenvision opt in DISPLAY ONLY",
+    "Description": "",
+    "Value type": "or",
+    "Class": "halloweenvision_opt_in_display_only",
+    "Notes": "Unused"
+  },
+  "447": {
+    "Name": "halloweenvision filter DISPLAY ONLY",
+    "Description": "",
+    "Value type": "or",
+    "Class": "halloweenvision_filter_display_only",
+    "Notes": "Unused"
+  },
+  "448": {
+    "Name": "player skin override",
+    "Description": "Attrib_PlayerSkinOverride",
+    "Value type": "additive",
+    "Class": "player_skin_override",
+    "Notes": "Hidden"
+  },
+  "449": {
+    "Name": "never craftable",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "never_craftable",
+    "Notes": "Hidden\nUnused"
+  },
+  "450": {
+    "Name": "zombiezombiezombiezombie",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "zombiezombiezombiezombie",
+    "Notes": "Hidden"
+  },
+  "451": {
+    "Name": "sapper voice pak",
+    "Description": "Attrib_Sapper_Voice_Pak",
+    "Value type": "additive",
+    "Class": "sapper_voice_pak",
+    "Notes": ""
+  },
+  "452": {
+    "Name": "sapper voice pak idle wait",
+    "Description": "Attrib_Sapper_Voice_Pak_Idle_Wait",
+    "Value type": "additive",
+    "Class": "sapper_voice_pak_idle_wait",
+    "Notes": ""
+  },
+  "453": {
+    "Name": "merasmus hat level display ONLY",
+    "Description": "Killed Merasmus at level %s1",
+    "Value type": "additive",
+    "Class": "merasmus_hat_level_display_ONLY",
+    "Notes": "Unused"
+  },
+  "454": {
+    "Name": "strange restriction type 1",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_type_1",
+    "Notes": "Hidden"
+  },
+  "455": {
+    "Name": "strange restriction value 1",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_value_1",
+    "Notes": "Hidden"
+  },
+  "456": {
+    "Name": "strange restriction type 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_type_2",
+    "Notes": "Hidden"
+  },
+  "457": {
+    "Name": "strange restriction value 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_value_2",
+    "Notes": "Hidden"
+  },
+  "458": {
+    "Name": "strange restriction user type 1",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_user_type_1",
+    "Notes": "Hidden"
+  },
+  "459": {
+    "Name": "strange restriction user value 1",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_user_value_1",
+    "Notes": "Hidden"
+  },
+  "460": {
+    "Name": "strange restriction user type 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_user_type_2",
+    "Notes": "Hidden"
+  },
+  "461": {
+    "Name": "strange restriction user value 2",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_user_value_2",
+    "Notes": "Hidden"
+  },
+  "462": {
+    "Name": "strange restriction user type 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_user_type_3",
+    "Notes": "Hidden"
+  },
+  "463": {
+    "Name": "strange restriction user value 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_user_value_3",
+    "Notes": "Hidden"
+  },
+  "464": {
+    "Name": "engineer sentry build rate multiplier",
+    "Description": "Sentry build speed increased by %s1%",
+    "Value type": "percentage",
+    "Class": "sentry_build_rate_multiplier",
+    "Notes": ""
+  },
+  "465": {
+    "Name": "engineer teleporter build rate multiplier",
+    "Description": "Increases teleporter build speed by %s1%.",
+    "Value type": "percentage",
+    "Class": "teleporter_build_rate_multiplier",
+    "Notes": "Unused"
+  },
+  "466": {
+    "Name": "grenade launcher mortar mode",
+    "Description": "Cannonballs have a fuse time of 1 second; fuses can be primed to explode earlier by holding down the fire key.",
+    "Value type": "additive",
+    "Class": "grenade_launcher_mortar_mode",
+    "Notes": ""
+  },
+  "467": {
+    "Name": "grenade not explode on impact",
+    "Description": "Cannonballs do not explode on impact",
+    "Value type": "additive",
+    "Class": "grenade_not_explode_on_impact",
+    "Notes": ""
+  },
+  "468": {
+    "Name": "strange score selector",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_score_selector",
+    "Notes": "Hidden"
+  },
+  "469": {
+    "Name": "engineer building teleporting pickup",
+    "Description": "Alt-Fire: Use %s1 metal to pick up your targeted building from long range",
+    "Value type": "additive",
+    "Class": "building_teleporting_pickup",
+    "Notes": ""
+  },
+  "470": {
+    "Name": "grenade damage reduction on world contact",
+    "Description": "%s1% damage on contact with surfaces",
+    "Value type": "percentage",
+    "Class": "grenade_damage_reduction_on_world_contact",
+    "Notes": "Unused"
+  },
+  "471": {
+    "Name": "engineer rage on dmg",
+    "Description": "Generate building rescue energy on damage",
+    "Value type": "additive",
+    "Class": "generate_rage_on_dmg",
+    "Notes": "Unused"
+  },
+  "472": {
+    "Name": "mark for death on building pickup",
+    "Description": "Self mark for death when hauling buildings",
+    "Value type": "additive",
+    "Class": "mark_for_death_on_building_pickup",
+    "Notes": ""
+  },
+  "473": {
+    "Name": "medigun charge is resists",
+    "Description": "Press your reload key to cycle through resist types. While healing, provides you and your target with a constant 10% resistance to the selected damage type.",
+    "Value type": "additive",
+    "Class": "set_charge_type",
+    "Notes": ""
+  },
+  "474": {
+    "Name": "arrow heals buildings",
+    "Description": "Fires a special bolt that can repair friendly buildings",
+    "Value type": "additive",
+    "Class": "arrow_heals_buildings",
+    "Notes": ""
+  },
+  "475": {
+    "Name": "Projectile speed increased HIDDEN",
+    "Description": "+%s1% projectile speed",
+    "Value type": "percentage",
+    "Class": "mult_projectile_speed",
+    "Notes": "Hidden\nUnused"
+  },
+  "476": {
+    "Name": "damage bonus HIDDEN",
+    "Description": "+%s1% damage bonus",
+    "Value type": "percentage",
+    "Class": "mult_dmg",
+    "Notes": "Hidden\nUnused"
+  },
+  "477": {
+    "Name": "cannonball push back",
+    "Description": "Cannonballs push players back on impact",
+    "Value type": "additive",
+    "Class": "cannonball_push_back",
+    "Notes": ""
+  },
+  "478": {
+    "Name": "rage giving scale",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "rage_giving_scale",
+    "Notes": ""
+  },
+  "479": {
+    "Name": "overheal fill rate reduced",
+    "Description": "%s1% Overheal build rate.",
+    "Value type": "percentage",
+    "Class": "overheal_fill_rate",
+    "Notes": ""
+  },
+  "481": {
+    "Name": "canteen specialist",
+    "Description": "Share Canteens with your heal target. +1 duration, -10 price per point (minimum cost: 5)",
+    "Value type": "additive",
+    "Class": "canteen_specialist",
+    "Notes": ""
+  },
+  "482": {
+    "Name": "overheal expert",
+    "Description": "+25% more overheal, +50% longer duration per point",
+    "Value type": "additive",
+    "Class": "overheal_expert",
+    "Notes": ""
+  },
+  "484": {
+    "Name": "mad milk syringes",
+    "Description": "Syringes deliver a highly concentrated dose of Mad Milk. Duration increases per hit to a max of 4 seconds.",
+    "Value type": "additive",
+    "Class": "mad_milk_syringes",
+    "Notes": ""
+  },
+  "488": {
+    "Name": "rocket specialist",
+    "Description": "+15% rocket speed per point.  On direct hits: rocket does maximum damage, stuns target, and blast radius increased +15% per point.",
+    "Value type": "additive",
+    "Class": "rocket_specialist",
+    "Notes": ""
+  },
+  "489": {
+    "Name": "SET BONUS: move speed set bonus",
+    "Description": "+%s1% faster move speed on wearer",
+    "Value type": "percentage",
+    "Class": "mult_player_movespeed",
+    "Notes": "Unused"
+  },
+  "490": {
+    "Name": "SET BONUS: health regen set bonus",
+    "Description": "+%s1 health regenerated per second on wearer",
+    "Value type": "additive",
+    "Class": "add_health_regen",
+    "Notes": "Unused"
+  },
+  "491": {
+    "Name": "SET BONUS: dmg taken from crit reduced set bonus",
+    "Description": "+%s1% critical hit damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_crit",
+    "Notes": "Unused"
+  },
+  "492": {
+    "Name": "SET BONUS: dmg taken from fire reduced set bonus",
+    "Description": "+%s1% fire damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_fire",
+    "Notes": "Unused"
+  },
+  "493": {
+    "Name": "healing mastery",
+    "Description": "+25% heal rate for patient, +25% faster revive rate, and +25% self heal rate, per point",
+    "Value type": "additive",
+    "Class": "healing_mastery",
+    "Notes": ""
+  },
+  "494": {
+    "Name": "kill eater 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_3",
+    "Notes": "Hidden"
+  },
+  "495": {
+    "Name": "kill eater score type 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "kill_eater_score_type_3",
+    "Notes": "Hidden"
+  },
+  "496": {
+    "Name": "strange restriction type 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_type_3",
+    "Notes": "Hidden"
+  },
+  "497": {
+    "Name": "strange restriction value 3",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "strange_restriction_value_3",
+    "Notes": "Hidden"
+  },
+  "498": {
+    "Name": "bot custom jump particle",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "bot_custom_jump_particle",
+    "Notes": "Hidden"
+  },
+  "499": {
+    "Name": "generate rage on heal",
+    "Description": "Build energy by healing teammates.  When fully charged, press the Special-Attack key to deploy a frontal projectile shield.",
+    "Value type": "additive",
+    "Class": "generate_rage_on_heal",
+    "Notes": ""
+  },
+  "500": {
+    "Name": "custom name attr",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "custom_name_attr",
+    "Notes": "Hidden\nUnused"
+  },
+  "501": {
+    "Name": "custom desc attr",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "custom_desc_attr",
+    "Notes": "Hidden\nUnused"
+  },
+  "503": {
+    "Name": "medigun bullet resist passive",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_bullet_resist_passive",
+    "Notes": "Hidden"
+  },
+  "504": {
+    "Name": "medigun blast resist passive",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_blast_resist_passive",
+    "Notes": "Hidden"
+  },
+  "505": {
+    "Name": "medigun fire resist passive",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_fire_resist_passive",
+    "Notes": "Hidden"
+  },
+  "506": {
+    "Name": "medigun bullet resist deployed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_bullet_resist_deployed",
+    "Notes": "Hidden"
+  },
+  "507": {
+    "Name": "medigun blast resist deployed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_blast_resist_deployed",
+    "Notes": "Hidden"
+  },
+  "508": {
+    "Name": "medigun fire resist deployed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_fire_resist_deployed",
+    "Notes": "Hidden"
+  },
+  "509": {
+    "Name": "medigun crit bullet percent bar deplete",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_crit_bullet_percent_bar_deplete",
+    "Notes": "Hidden\nUnused"
+  },
+  "510": {
+    "Name": "medigun crit blast percent bar deplete",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_crit_blast_percent_bar_deplete",
+    "Notes": "Hidden\nUnused"
+  },
+  "511": {
+    "Name": "medigun crit fire percent bar deplete",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "medigun_crit_fire_percent_bar_deplete",
+    "Notes": "Hidden\nUnused"
+  },
+  "512": {
+    "Name": "throwable fire speed",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "throwable_fire_speed",
+    "Notes": "Hidden\nUnused"
+  },
+  "513": {
+    "Name": "throwable damage",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "throwable_damage",
+    "Notes": "Hidden\nUnused"
+  },
+  "514": {
+    "Name": "throwable healing",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "throwable_healing",
+    "Notes": "Hidden\nUnused"
+  },
+  "515": {
+    "Name": "throwable particle trail only",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "throwable_particle_trail_only",
+    "Notes": "Hidden\nUnused"
+  },
+  "516": {
+    "Name": "SET BONUS: dmg taken from bullets increased",
+    "Description": "%s1% bullet damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken_from_bullets",
+    "Notes": "Unused"
+  },
+  "517": {
+    "Name": "SET BONUS: max health additive bonus",
+    "Description": "+%s1 max health on wearer",
+    "Value type": "additive",
+    "Class": "add_maxhealth",
+    "Notes": "Unused"
+  },
+  "518": {
+    "Name": "scattergun knockback mult",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "scattergun_knockback_mult",
+    "Notes": "Hidden\nUnused"
+  },
+  "519": {
+    "Name": "particle effect vertical offset",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "particle_effect_vertical_offset",
+    "Notes": "Hidden\nUnused"
+  },
+  "520": {
+    "Name": "particle effect use head origin",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "particle_effect_use_head_origin",
+    "Notes": "Hidden\nUnused"
+  },
+  "521": {
+    "Name": "use large smoke explosion",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "use_large_smoke_explosion",
+    "Notes": "Hidden\nUnused"
+  },
+  "522": {
+    "Name": "damage causes airblast",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "damage_causes_airblast",
+    "Notes": ""
+  },
+  "524": {
+    "Name": "increased jump height from weapon",
+    "Description": "+%s1% greater jump height when active",
+    "Value type": "percentage",
+    "Class": "mod_jump_height_from_weapon",
+    "Notes": ""
+  },
+  "525": {
+    "Name": "damage force increase",
+    "Description": "%s1% increase in push force taken from damage",
+    "Value type": "percentage",
+    "Class": "damage_force_reduction",
+    "Notes": "Unused"
+  },
+  "526": {
+    "Name": "healing received bonus",
+    "Description": "+%s1% bonus healing from all sources",
+    "Value type": "percentage",
+    "Class": "mult_healing_received",
+    "Notes": "Unused"
+  },
+  "527": {
+    "Name": "afterburn immunity",
+    "Description": "Immune to the effects of afterburn.",
+    "Value type": "additive",
+    "Class": "afterburn_immunity",
+    "Notes": ""
+  },
+  "528": {
+    "Name": "decoded by itemdefindex",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "decoded_by_itemdefindex",
+    "Notes": "Hidden\nUnused"
+  },
+  "532": {
+    "Name": "hype decays over time",
+    "Description": "Hype Decays Over Time.",
+    "Value type": "additive",
+    "Class": "hype_decays_over_time",
+    "Notes": "Unused"
+  },
+  "533": {
+    "Name": "SET BONUS: custom taunt particle attr",
+    "Description": "Extra effects when taunting.",
+    "Value type": "additive",
+    "Class": "custom_taunt_particle_attr",
+    "Notes": ""
+  },
+  "534": {
+    "Name": "airblast vulnerability multiplier hidden",
+    "Description": "%s1% reduction in airblast vulnerability",
+    "Value type": "percentage",
+    "Class": "airblast_vulnerability_multiplier",
+    "Notes": "Hidden"
+  },
+  "535": {
+    "Name": "damage force increase hidden",
+    "Description": "%s1% increase in push force taken from damage",
+    "Value type": "percentage",
+    "Class": "damage_force_reduction",
+    "Notes": "Hidden"
+  },
+  "536": {
+    "Name": "damage force increase text",
+    "Description": "Increase in push force taken from damage and airblast",
+    "Value type": "percentage",
+    "Class": "damage_force_reduction",
+    "Notes": ""
+  },
+  "537": {
+    "Name": "SET BONUS: calling card on kill",
+    "Description": "Leave a Calling Card on your victims.",
+    "Value type": "additive",
+    "Class": "calling_card_on_kill",
+    "Notes": ""
+  },
+  "538": {
+    "Name": "righthand pose parameter",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "righthand_pose_parameter",
+    "Notes": "Hidden"
+  },
+  "539": {
+    "Name": "set throwable type",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "set_throwable_type",
+    "Notes": "Hidden"
+  },
+  "540": {
+    "Name": "add head on hit",
+    "Description": "Attrib_AddHeadOnHit",
+    "Value type": "additive_percentage",
+    "Class": "add_head_on_hit",
+    "Notes": "Unused"
+  },
+  "542": {
+    "Name": "item style override",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "item_style_override",
+    "Notes": "Hidden"
+  },
+  "543": {
+    "Name": "paint decal enum",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "paint_decal_enum",
+    "Notes": "Hidden"
+  },
+  "544": {
+    "Name": "show paint description",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "show_paint_description",
+    "Notes": "Hidden"
+  },
+  "545": {
+    "Name": "bot medic uber health threshold",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "bot_medic_uber_health_threshold",
+    "Notes": "Hidden\nUnused"
+  },
+  "546": {
+    "Name": "bot medic uber deploy delay duration",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "bot_medic_uber_deploy_delay_duration",
+    "Notes": "Hidden\nUnused"
+  },
+  "547": {
+    "Name": "single wep deploy time decreased",
+    "Description": "This weapon deploys %s1% faster",
+    "Value type": "inverted_percentage",
+    "Class": "mult_single_wep_deploy_time",
+    "Notes": ""
+  },
+  "548": {
+    "Name": "halloween reload time decreased",
+    "Description": "",
+    "Value type": "inverted_percentage",
+    "Class": "hwn_mult_reload_time",
+    "Notes": "Hidden\nUnused"
+  },
+  "549": {
+    "Name": "halloween fire rate bonus",
+    "Description": "",
+    "Value type": "inverted_percentage",
+    "Class": "hwn_mult_postfiredelay",
+    "Notes": "Hidden\nUnused"
+  },
+  "550": {
+    "Name": "halloween increased jump height",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mod_jump_height",
+    "Notes": "Hidden\nUnused"
+  },
+  "551": {
+    "Name": "special taunt",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "special_taunt",
+    "Notes": "Hidden"
+  },
+  "554": {
+    "Name": "revive",
+    "Description": "Revive Teammates",
+    "Value type": "additive",
+    "Class": "revive",
+    "Notes": "Unused"
+  },
+  "556": {
+    "Name": "taunt attack name",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_attack_name",
+    "Notes": "Hidden"
+  },
+  "557": {
+    "Name": "taunt attack time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_attack_time",
+    "Notes": "Hidden"
+  },
+  "600": {
+    "Name": "taunt force move forward",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_force_move_forward",
+    "Notes": "Hidden"
+  },
+  "602": {
+    "Name": "taunt mimic",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_mimic",
+    "Notes": "Hidden"
+  },
+  "606": {
+    "Name": "taunt success sound",
+    "Description": "Attrib_TauntSoundSuccess",
+    "Value type": "additive",
+    "Class": "taunt_success_sound",
+    "Notes": "Hidden"
+  },
+  "607": {
+    "Name": "taunt success sound offset",
+    "Description": "Attrib_PhaseCloak",
+    "Value type": "additive",
+    "Class": "taunt_success_sound_offset",
+    "Notes": "Hidden"
+  },
+  "608": {
+    "Name": "taunt success sound loop",
+    "Description": "Attrib_TauntSoundSuccess",
+    "Value type": "additive",
+    "Class": "taunt_success_sound_loop",
+    "Notes": "Hidden"
+  },
+  "609": {
+    "Name": "taunt success sound loop offset",
+    "Description": "Attrib_PhaseCloak",
+    "Value type": "additive",
+    "Class": "taunt_success_sound_loop_offset",
+    "Notes": "Hidden"
+  },
+  "610": {
+    "Name": "increased air control",
+    "Description": "%s1% increased air control.",
+    "Value type": "percentage",
+    "Class": "mod_air_control",
+    "Notes": "Unused"
+  },
+  "612": {
+    "Name": "rocket launch impulse",
+    "Description": "Attrib_RocketLaunchImpulse",
+    "Value type": "additive",
+    "Class": "mod_rocket_launch_impulse",
+    "Notes": "Unused"
+  },
+  "613": {
+    "Name": "minicritboost on kill",
+    "Description": "On Kill: Gain Mini-crits for %s1 seconds.",
+    "Value type": "additive",
+    "Class": "add_onkill_minicritboost_time",
+    "Notes": "Unused"
+  },
+  "614": {
+    "Name": "no metal from dispensers while active",
+    "Description": "No metal from dispensers when active.",
+    "Value type": "additive",
+    "Class": "no_metal_from_dispensers_while_active",
+    "Notes": "Unused"
+  },
+  "615": {
+    "Name": "projectile entity name",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "projectile_entity_name",
+    "Notes": "Hidden\nUnused"
+  },
+  "616": {
+    "Name": "is throwable primable",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "is_throwable_primable",
+    "Notes": "Unused"
+  },
+  "617": {
+    "Name": "throwable detonation time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "throwable_detonation_time",
+    "Notes": "Unused"
+  },
+  "618": {
+    "Name": "throwable recharge time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "throwable_recharge_time",
+    "Notes": "Unused"
+  },
+  "619": {
+    "Name": "closerange backattack minicrits",
+    "Description": "Mini-crits targets when fired at their back from close range",
+    "Value type": "additive",
+    "Class": "closerange_backattack_minicrits",
+    "Notes": ""
+  },
+  "620": {
+    "Name": "torso scale",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "torso_scale",
+    "Notes": "Unused"
+  },
+  "621": {
+    "Name": "rocketjump attackrate bonus",
+    "Description": "Increased attack speed and smaller blast radius while blast jumping",
+    "Value type": "percentage",
+    "Class": "rocketjump_attackrate_bonus",
+    "Notes": ""
+  },
+  "622": {
+    "Name": "is throwable chargeable",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "is_throwable_chargeable",
+    "Notes": "Unused"
+  },
+  "630": {
+    "Name": "back headshot",
+    "Description": "Attrib_BackHeadshot",
+    "Value type": "additive",
+    "Class": "back_headshot",
+    "Notes": "Unused"
+  },
+  "632": {
+    "Name": "rj air bombardment",
+    "Description": "Fires 3 barrages while explosive jumping",
+    "Value type": "additive",
+    "Class": "rj_air_bombardment",
+    "Notes": "Unused"
+  },
+  "633": {
+    "Name": "projectile particle name",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "projectile_particle_name",
+    "Notes": "Hidden\nUnused"
+  },
+  "634": {
+    "Name": "air jump on attack",
+    "Description": "Attrib_AirJumpOnAttack",
+    "Value type": "additive",
+    "Class": "air_jump_on_attack",
+    "Notes": "Hidden\nUnused"
+  },
+  "636": {
+    "Name": "sniper crit no scope",
+    "Description": "Charge and fire shots independent of zoom",
+    "Value type": "additive",
+    "Class": "sniper_crit_no_scope",
+    "Notes": ""
+  },
+  "637": {
+    "Name": "sniper independent zoom DISPLAY ONLY",
+    "Description": "Zoom does not affect charge",
+    "Value type": "additive",
+    "Class": "sniper_independent_zoom_DISPLAY_ONLY",
+    "Notes": "Unused"
+  },
+  "638": {
+    "Name": "axtinguisher properties",
+    "Description": "100% critical hits burning players from behind. Mini-crits burning players from the front.",
+    "Value type": "additive",
+    "Class": "axtinguisher_properties",
+    "Notes": "Unused"
+  },
+  "639": {
+    "Name": "full charge turn control",
+    "Description": "Full turning control while charging",
+    "Value type": "additive",
+    "Class": "charge_turn_control",
+    "Notes": ""
+  },
+  "640": {
+    "Name": "parachute attribute",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "parachute_attribute",
+    "Notes": "Hidden"
+  },
+  "641": {
+    "Name": "taunt force weapon slot",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_force_weapon_slot",
+    "Notes": "Hidden"
+  },
+  "642": {
+    "Name": "mini rockets",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "mini_rockets",
+    "Notes": "Hidden"
+  },
+  "643": {
+    "Name": "rocket jump damage reduction HIDDEN",
+    "Description": "%s1% blast damage from rocket jumps",
+    "Value type": "percentage",
+    "Class": "rocket_jump_dmg_reduction",
+    "Notes": "Hidden\nUnused"
+  },
+  "644": {
+    "Name": "clipsize increase on kill",
+    "Description": "Clip size increased on kill",
+    "Value type": "additive",
+    "Class": "clipsize_increase_on_kill",
+    "Notes": ""
+  },
+  "645": {
+    "Name": "breadgloves properties",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "breadgloves_properties",
+    "Notes": "Hidden"
+  },
+  "646": {
+    "Name": "taunt turn speed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_turn_speed",
+    "Notes": "Hidden"
+  },
+  "647": {
+    "Name": "sniper fires tracer HIDDEN",
+    "Description": "Fires tracer rounds",
+    "Value type": "additive",
+    "Class": "sniper_fires_tracer_HIDDEN",
+    "Notes": "Hidden"
+  },
+  "651": {
+    "Name": "fire rate bonus with reduced health",
+    "Description": "Fire rate increases as health decreases",
+    "Value type": "inverted_percentage",
+    "Class": "mult_postfiredelay_with_reduced_health",
+    "Notes": "Unused"
+  },
+  "661": {
+    "Name": "tag__summer2014",
+    "Description": "Rewarded for participating in the 2014 Summer Adventure.",
+    "Value type": "additive",
+    "Class": "tag__summer2014",
+    "Notes": ""
+  },
+  "662": {
+    "Name": "crate generation code",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "crate_generation_code",
+    "Notes": "Hidden"
+  },
+  "669": {
+    "Name": "stickybomb fizzle time",
+    "Description": "Stickybombs fizzle %s1 seconds after landing",
+    "Value type": "additive",
+    "Class": "stickybomb_fizzle_time",
+    "Notes": "Unused"
+  },
+  "670": {
+    "Name": "stickybomb charge rate",
+    "Description": "Max charge time decreased by %s1%",
+    "Value type": "inverted_percentage",
+    "Class": "stickybomb_charge_rate",
+    "Notes": ""
+  },
+  "671": {
+    "Name": "grenade no bounce",
+    "Description": "Grenades have very little bounce and roll",
+    "Value type": "additive",
+    "Class": "grenade_no_bounce",
+    "Notes": ""
+  },
+  "674": {
+    "Name": "class select override vcd",
+    "Description": "Attrib_Class_Select_Override_VCD",
+    "Value type": "additive",
+    "Class": "class_select_override_vcd",
+    "Notes": "Hidden\nUnused"
+  },
+  "675": {
+    "Name": "custom projectile model",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "custom_projectile_model",
+    "Notes": "Hidden"
+  },
+  "676": {
+    "Name": "lose demo charge on damage when charging",
+    "Description": "Taking damage while shield charging reduces remaining charging time",
+    "Value type": "additive",
+    "Class": "lose_demo_charge_on_damage_when_charging",
+    "Notes": ""
+  },
+  "681": {
+    "Name": "grenade no spin",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "grenade_no_spin",
+    "Notes": "Hidden"
+  },
+  "684": {
+    "Name": "grenade detonation damage penalty",
+    "Description": "%s1% damage on grenades that explode on timer",
+    "Value type": "percentage",
+    "Class": "grenade_detonation_damage_penalty",
+    "Notes": "Unused"
+  },
+  "687": {
+    "Name": "taunt turn acceleration time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_turn_acceleration_time",
+    "Notes": "Hidden"
+  },
+  "688": {
+    "Name": "taunt move acceleration time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_move_acceleration",
+    "Notes": "Hidden"
+  },
+  "689": {
+    "Name": "taunt move speed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_move_speed",
+    "Notes": "Hidden"
+  },
+  "690": {
+    "Name": "shuffle crate item def min",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "shuffle_crate_item_def_min",
+    "Notes": "Hidden"
+  },
+  "691": {
+    "Name": "shuffle crate item def max",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "shuffle_crate_item_def_max",
+    "Notes": "Hidden"
+  },
+  "692": {
+    "Name": "limited quantity item",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "limited_quantity_item",
+    "Notes": "Hidden"
+  },
+  "693": {
+    "Name": "SET BONUS: alien isolation xeno bonus pos",
+    "Description": "Increased Melee damage against Isolated Merc Set",
+    "Value type": "additive",
+    "Class": "alien_isolation_xeno_bonus_pos",
+    "Notes": ""
+  },
+  "694": {
+    "Name": "SET BONUS: alien isolation xeno bonus neg",
+    "Description": "Increased Nostromo Napalmer damage taken from Isolated Merc Set",
+    "Value type": "additive",
+    "Class": "alien_isolation_xeno_bonus_neg",
+    "Notes": ""
+  },
+  "695": {
+    "Name": "SET BONUS: alien isolation merc bonus pos",
+    "Description": "Increased Nostromo Napalmer damage against Isolationist Pack Set",
+    "Value type": "additive",
+    "Class": "alien_isolation_merc_bonus_pos",
+    "Notes": ""
+  },
+  "696": {
+    "Name": "SET BONUS: alien isolation merc bonus neg",
+    "Description": "Increased Melee damage taken from Isolationist Pack Set",
+    "Value type": "additive",
+    "Class": "alien_isolation_merc_bonus_neg",
+    "Notes": ""
+  },
+  "698": {
+    "Name": "disable weapon switch",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "disable_weapon_switch",
+    "Notes": "Hidden\nUnused"
+  },
+  "699": {
+    "Name": "hand scale",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "hand_scale",
+    "Notes": "Unused"
+  },
+  "700": {
+    "Name": "display duck leaderboard",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "display_duck_leaderboard",
+    "Notes": "Hidden"
+  },
+  "701": {
+    "Name": "duck rating",
+    "Description": "Duck XP Level : %s1",
+    "Value type": "additive",
+    "Class": "duck_rating",
+    "Notes": ""
+  },
+  "702": {
+    "Name": "duck badge level",
+    "Description": "Duck Power : %s1 / 5",
+    "Value type": "additive",
+    "Class": "duck_badge_level",
+    "Notes": ""
+  },
+  "703": {
+    "Name": "tag__eotlearlysupport",
+    "Description": "Early Supporter of End of the Line Community Update",
+    "Value type": "additive",
+    "Class": "tag__eotlearlysupport",
+    "Notes": ""
+  },
+  "704": {
+    "Name": "unlimited quantity hidden",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "unlimited_quantity",
+    "Notes": "Hidden"
+  },
+  "705": {
+    "Name": "duckstreaks active",
+    "Description": "Duckstreaks Active",
+    "Value type": "additive",
+    "Class": "duckstreaks_active",
+    "Notes": ""
+  },
+  "708": {
+    "Name": "panic_attack",
+    "Description": "Hold fire to load up to 4 shells",
+    "Value type": "additive",
+    "Class": "panic_attack",
+    "Notes": "Unused"
+  },
+  "709": {
+    "Name": "panic_attack_negative",
+    "Description": "Weapon spread increases as health decreases",
+    "Value type": "inverted_percentage",
+    "Class": "panic_attack_negative",
+    "Notes": "Unused"
+  },
+  "710": {
+    "Name": "auto fires full clip penalty",
+    "Description": "Attrib_AutoFiresFullClipNegative",
+    "Value type": "additive",
+    "Class": "auto_fires_full_clip",
+    "Notes": "Unused"
+  },
+  "711": {
+    "Name": "auto fires when full",
+    "Description": "Attrib_AutoFiresWhenFull",
+    "Value type": "additive",
+    "Class": "auto_fires_when_full",
+    "Notes": "Unused"
+  },
+  "712": {
+    "Name": "force weapon switch",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "force_weapon_switch",
+    "Notes": "Hidden\nUnused"
+  },
+  "719": {
+    "Name": "weapon_uses_stattrak_module",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "weapon_uses_stattrak_module",
+    "Notes": "Hidden"
+  },
+  "723": {
+    "Name": "is_operation_pass",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "is_operation_pass",
+    "Notes": "Hidden"
+  },
+  "724": {
+    "Name": "weapon_stattrak_module_scale",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "weapon_stattrak_module_scale",
+    "Notes": "Hidden"
+  },
+  "725": {
+    "Name": "set_item_texture_wear",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "set_item_texture_wear",
+    "Notes": "Hidden"
+  },
+  "726": {
+    "Name": "cloak_consume_on_feign_death_activate",
+    "Description": "%s1% cloak meter when Feign Death is activated",
+    "Value type": "percentage",
+    "Class": "cloak_consume_on_feign_death_activate",
+    "Notes": ""
+  },
+  "727": {
+    "Name": "stickybomb_charge_damage_increase",
+    "Description": "Up to +%s1% damage based on charge",
+    "Value type": "percentage",
+    "Class": "stickybomb_charge_damage_increase",
+    "Notes": ""
+  },
+  "728": {
+    "Name": "NoCloakWhenCloaked",
+    "Description": "No cloak meter from ammo boxes when invisible",
+    "Value type": "additive",
+    "Class": "NoCloakWhenCloaked",
+    "Notes": ""
+  },
+  "729": {
+    "Name": "ReducedCloakFromAmmo",
+    "Description": "%s1% cloak meter from ammo boxes",
+    "Value type": "percentage",
+    "Class": "ReducedCloakFromAmmo",
+    "Notes": ""
+  },
+  "730": {
+    "Name": "elevate to unusual if applicable",
+    "Description": "Attrib_ElevateQuality",
+    "Value type": "additive",
+    "Class": "elevate_to_unusual_if_applicable",
+    "Notes": "Hidden\nUnused"
+  },
+  "731": {
+    "Name": "weapon_allow_inspect",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "weapon_allow_inspect",
+    "Notes": "Hidden"
+  },
+  "732": {
+    "Name": "metal_pickup_decreased",
+    "Description": "%s1% less metal from pickups and dispensers",
+    "Value type": "inverted_percentage",
+    "Class": "mult_metal_pickup",
+    "Notes": ""
+  },
+  "733": {
+    "Name": "lose hype on take damage",
+    "Description": "Boost reduced when hit",
+    "Value type": "additive",
+    "Class": "lose_hype_on_take_damage",
+    "Notes": ""
+  },
+  "734": {
+    "Name": "healing received penalty",
+    "Description": "%s1% less healing from all sources",
+    "Value type": "inverted_percentage",
+    "Class": "mult_healing_received",
+    "Notes": "Unused"
+  },
+  "735": {
+    "Name": "crit_vs_burning_FLARES_DISPLAY_ONLY",
+    "Description": "100% critical hit vs burning players",
+    "Value type": "or",
+    "Class": "crit_vs_burning_FLARES_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "736": {
+    "Name": "speed_boost_on_kill",
+    "Description": "Gain a speed boost on kill",
+    "Value type": "additive",
+    "Class": "speed_boost_on_kill",
+    "Notes": ""
+  },
+  "737": {
+    "Name": "speed_boost_on_hit",
+    "Description": "On Hit: Gain a speed boost",
+    "Value type": "additive",
+    "Class": "speed_boost_on_hit",
+    "Notes": ""
+  },
+  "738": {
+    "Name": "spunup_damage_resistance",
+    "Description": "%s1% damage resistance when below 50% health and spun up",
+    "Value type": "percentage",
+    "Class": "spunup_damage_resistance",
+    "Notes": ""
+  },
+  "739": {
+    "Name": "ubercharge overheal rate penalty",
+    "Description": "%s1% ÜberCharge rate on Overhealed patients",
+    "Value type": "percentage",
+    "Class": "mult_medigun_overheal_uberchargerate",
+    "Notes": ""
+  },
+  "740": {
+    "Name": "reduced_healing_from_medics",
+    "Description": "%s1% less healing from Medic sources",
+    "Value type": "percentage",
+    "Class": "mult_healing_from_medics",
+    "Notes": ""
+  },
+  "741": {
+    "Name": "health on radius damage",
+    "Description": "On Hit: Gain up to +%s1 health per attack",
+    "Value type": "additive",
+    "Class": "add_health_on_radius_damage",
+    "Notes": ""
+  },
+  "742": {
+    "Name": "style changes on strange level",
+    "Description": "",
+    "Value type": "",
+    "Class": "style_changes_on_strange_level",
+    "Notes": "Hidden"
+  },
+  "743": {
+    "Name": "cannot restore",
+    "Description": "",
+    "Value type": "",
+    "Class": "cannot_restore",
+    "Notes": "Hidden"
+  },
+  "744": {
+    "Name": "hide crate series number",
+    "Description": "",
+    "Value type": "",
+    "Class": "hide_crate_series_number",
+    "Notes": "Hidden"
+  },
+  "745": {
+    "Name": "has team color paintkit",
+    "Description": "Team Colored Decorated Weapon",
+    "Value type": "additive",
+    "Class": "has_team_color_paintkit",
+    "Notes": ""
+  },
+  "746": {
+    "Name": "cosmetic_allow_inspect",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "cosmetic_allow_inspect",
+    "Notes": "Hidden"
+  },
+  "747": {
+    "Name": "hat only unusual effect",
+    "Description": "",
+    "Value type": "particle_index",
+    "Class": "hat_only_unusual_effect",
+    "Notes": "Hidden"
+  },
+  "748": {
+    "Name": "items traded in for",
+    "Description": "Items Traded in : %s1",
+    "Value type": "additive",
+    "Class": "items_traded_in_for",
+    "Notes": "Hidden"
+  },
+  "749": {
+    "Name": "texture_wear_default",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "texture_wear_default",
+    "Notes": "Hidden"
+  },
+  "750": {
+    "Name": "taunt only unusual effect",
+    "Description": "",
+    "Value type": "particle_index",
+    "Class": "taunt_only_unusual_effect",
+    "Notes": "Hidden"
+  },
+  "751": {
+    "Name": "deactive date",
+    "Description": "",
+    "Value type": "date",
+    "Class": "deactive_date",
+    "Notes": "Hidden"
+  },
+  "752": {
+    "Name": "is giger counter",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "is_giger_counter",
+    "Notes": "Hidden"
+  },
+  "753": {
+    "Name": "hide_strange_prefix",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "hide_strange_prefix",
+    "Notes": "Hidden"
+  },
+  "754": {
+    "Name": "always_transmit_so",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "always_transmit_so",
+    "Notes": "Hidden"
+  },
+  "760": {
+    "Name": "allow_halloween_offering",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "allow_halloween_offering",
+    "Notes": "Hidden"
+  },
+  "762": {
+    "Name": "cannot_transmute",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "cannot_transmute",
+    "Notes": "Hidden"
+  },
+  "772": {
+    "Name": "single wep holster time increased",
+    "Description": "This weapon holsters %s1% slower",
+    "Value type": "percentage",
+    "Class": "mult_switch_from_wep_deploy_time",
+    "Notes": ""
+  },
+  "773": {
+    "Name": "single wep deploy time increased",
+    "Description": "This weapon deploys %s1% slower",
+    "Value type": "inverted_percentage",
+    "Class": "mult_single_wep_deploy_time",
+    "Notes": ""
+  },
+  "774": {
+    "Name": "charge time decreased",
+    "Description": "%s1 sec decrease in charge duration",
+    "Value type": "additive",
+    "Class": "mod_charge_time",
+    "Notes": "Unused"
+  },
+  "775": {
+    "Name": "dmg penalty vs buildings",
+    "Description": "%s1% damage penalty vs buildings",
+    "Value type": "percentage",
+    "Class": "mult_dmg_vs_buildings",
+    "Notes": ""
+  },
+  "776": {
+    "Name": "charge impact damage decreased",
+    "Description": "%s1% decrease in charge impact damage",
+    "Value type": "percentage",
+    "Class": "charge_impact_damage",
+    "Notes": "Unused"
+  },
+  "777": {
+    "Name": "non economy",
+    "Description": "Not Tradable, Marketable, Usable in Crafting, or Gift Wrappable",
+    "Value type": "additive",
+    "Class": "non_economy",
+    "Notes": "Hidden"
+  },
+  "778": {
+    "Name": "charge meter on hit",
+    "Description": "Melee hits refill  %s1% of your charge meter.",
+    "Value type": "additive_percentage",
+    "Class": "charge_meter_on_hit",
+    "Notes": ""
+  },
+  "779": {
+    "Name": "minicrit_boost_when_charged",
+    "Description": "Secondary fire when charged grants mini-crits for %s1 seconds.",
+    "Value type": "additive",
+    "Class": "minicrit_boost_when_charged",
+    "Notes": ""
+  },
+  "780": {
+    "Name": "minicrit_boost_charge_rate",
+    "Description": "Dealing damage fills charge meter.",
+    "Value type": "additive",
+    "Class": "minicrit_boost_charge_rate",
+    "Notes": ""
+  },
+  "781": {
+    "Name": "is_a_sword",
+    "Description": "This Weapon has a large melee range and deploys and holsters slower",
+    "Value type": "additive",
+    "Class": "is_a_sword",
+    "Notes": ""
+  },
+  "782": {
+    "Name": "ammo gives charge",
+    "Description": "Ammo boxes collected also give Charge",
+    "Value type": "additive",
+    "Class": "ammo_gives_charge",
+    "Notes": ""
+  },
+  "783": {
+    "Name": "extinguish restores health",
+    "Description": "Extinguishing teammates restores %s1 health",
+    "Value type": "additive",
+    "Class": "extinguish_restores_health",
+    "Notes": ""
+  },
+  "784": {
+    "Name": "extinguish reduces cooldown",
+    "Description": "Extinguishing teammates reduces cooldown by %s1%",
+    "Value type": "percentage",
+    "Class": "extinguish_reduces_cooldown",
+    "Notes": ""
+  },
+  "785": {
+    "Name": "cannot giftwrap",
+    "Description": "",
+    "Value type": "",
+    "Class": "cannot_giftwrap",
+    "Notes": "Hidden"
+  },
+  "786": {
+    "Name": "tool needs giftwrap",
+    "Description": "",
+    "Value type": "",
+    "Class": "tool_needs_giftwrap",
+    "Notes": "Hidden"
+  },
+  "787": {
+    "Name": "fuse bonus",
+    "Description": "%s1% fuse time on grenades",
+    "Value type": "percentage",
+    "Class": "fuse_mult",
+    "Notes": ""
+  },
+  "788": {
+    "Name": "move speed bonus shield required",
+    "Description": "+%s1% faster move speed on wearer (shield required)",
+    "Value type": "percentage",
+    "Class": "mult_player_movespeed_shieldrequired",
+    "Notes": ""
+  },
+  "789": {
+    "Name": "damage bonus bullet vs sentry target",
+    "Description": "%s1% increased damage to your sentry's target",
+    "Value type": "percentage",
+    "Class": "mult_dmg_bullet_vs_sentry_target",
+    "Notes": ""
+  },
+  "790": {
+    "Name": "mod teleporter cost",
+    "Description": "%s1% metal cost when constructing or upgrading teleporters",
+    "Value type": "percentage",
+    "Class": "mod_teleporter_cost",
+    "Notes": ""
+  },
+  "791": {
+    "Name": "damage blast push",
+    "Description": "Attrib_DamageBlastPush",
+    "Value type": "percentage",
+    "Class": "damage_blast_push",
+    "Notes": "Unused"
+  },
+  "792": {
+    "Name": "move speed bonus resource level",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mult_player_movespeed_resource_level",
+    "Notes": "Hidden"
+  },
+  "793": {
+    "Name": "hype on damage",
+    "Description": "On Hit: Builds Hype",
+    "Value type": "additive",
+    "Class": "hype_on_damage",
+    "Notes": ""
+  },
+  "794": {
+    "Name": "dmg taken from fire reduced on active",
+    "Description": "+%s1% fire damage resistance while deployed",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_fire_active",
+    "Notes": ""
+  },
+  "795": {
+    "Name": "damage bonus vs burning",
+    "Description": "%s1% damage bonus vs burning players",
+    "Value type": "percentage",
+    "Class": "mult_dmg_vs_burning",
+    "Notes": ""
+  },
+  "796": {
+    "Name": "min_viewmodel_offset",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "min_viewmodel_offset",
+    "Notes": "Hidden"
+  },
+  "797": {
+    "Name": "dmg pierces resists absorbs",
+    "Description": "Attacks pierce damage resistance effects and bonuses",
+    "Value type": "additive",
+    "Class": "mod_pierce_resists_absorbs",
+    "Notes": ""
+  },
+  "798": {
+    "Name": "energy buff dmg taken multiplier",
+    "Description": "+%s1% damage vulnerability while active",
+    "Value type": "percentage",
+    "Class": "energy_buff_dmg_taken_multiplier",
+    "Notes": ""
+  },
+  "799": {
+    "Name": "lose revenge crits on death DISPLAY ONLY",
+    "Description": "Revenge crits are lost on death",
+    "Value type": "percentage",
+    "Class": "lose_revenge_crits_on_death_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "800": {
+    "Name": "patient overheal penalty",
+    "Description": "%s1% maximum overheal on wearer",
+    "Value type": "percentage",
+    "Class": "mult_patient_overheal_penalty",
+    "Notes": ""
+  },
+  "801": {
+    "Name": "item_meter_charge_rate",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "item_meter_charge_rate",
+    "Notes": "Hidden"
+  },
+  "804": {
+    "Name": "mult_spread_scale_first_shot",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "mult_spread_scale_first_shot",
+    "Notes": "Hidden\nUnused"
+  },
+  "805": {
+    "Name": "unusualifier_attribute_template_name",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "unusualifier_attribute_template_name",
+    "Notes": "Hidden"
+  },
+  "806": {
+    "Name": "tool_target_item_icon_offset",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "tool_target_item_icon_offset",
+    "Notes": "Hidden"
+  },
+  "807": {
+    "Name": "add_head_on_kill",
+    "Description": "Collect the organs of your victims",
+    "Value type": "additive_percentage",
+    "Class": "add_head_on_kill",
+    "Notes": "Unused"
+  },
+  "808": {
+    "Name": "mult_spread_scales_consecutive",
+    "Description": "Successive shots become less accurate",
+    "Value type": "additive_percentage",
+    "Class": "mult_spread_scales_consecutive",
+    "Notes": ""
+  },
+  "809": {
+    "Name": "fixed_shot_pattern",
+    "Description": "Fires a wide, fixed shot pattern",
+    "Value type": "additive",
+    "Class": "fixed_shot_pattern",
+    "Notes": ""
+  },
+  "810": {
+    "Name": "mod_cloak_no_regen_from_items",
+    "Description": "Attrib_NoCloakFromAmmo",
+    "Value type": "additive",
+    "Class": "mod_cloak_no_regen_from_items",
+    "Notes": ""
+  },
+  "811": {
+    "Name": "ubercharge_preserved_on_spawn_max",
+    "Description": "Collect the organs of people you hit",
+    "Value type": "additive_percentage",
+    "Class": "ubercharge_preserved_on_spawn_max",
+    "Notes": ""
+  },
+  "812": {
+    "Name": "mod_air_control_blast_jump",
+    "Description": "%s1% increased air control when blast jumping.",
+    "Value type": "percentage",
+    "Class": "mod_air_control_blast_jump",
+    "Notes": ""
+  },
+  "813": {
+    "Name": "spunup_push_force_immunity",
+    "Description": "Immune to push force from damage and airblast when spun up",
+    "Value type": "percentage",
+    "Class": "spunup_push_force_immunity",
+    "Notes": "Unused"
+  },
+  "814": {
+    "Name": "mod_mark_attacker_for_death",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mod_mark_attacker_for_death",
+    "Notes": ""
+  },
+  "815": {
+    "Name": "use_model_cache_icon",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "use_model_cache_icon",
+    "Notes": "Hidden"
+  },
+  "816": {
+    "Name": "mod_disguise_consumes_cloak",
+    "Description": "Normal disguises require (and consume) a full cloak meter",
+    "Value type": "additive",
+    "Class": "mod_disguise_consumes_cloak",
+    "Notes": ""
+  },
+  "817": {
+    "Name": "inspect_viewmodel_offset",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "inspect_viewmodel_offset",
+    "Notes": "Hidden"
+  },
+  "818": {
+    "Name": "is_passive_weapon",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "is_passive_weapon",
+    "Notes": "Hidden"
+  },
+  "819": {
+    "Name": "no_jump",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "no_jump",
+    "Notes": "Hidden\nUnused"
+  },
+  "820": {
+    "Name": "no_duck",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "no_duck",
+    "Notes": "Hidden\nUnused"
+  },
+  "821": {
+    "Name": "no_attack",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "no_attack",
+    "Notes": "Hidden\nUnused"
+  },
+  "822": {
+    "Name": "airblast_destroy_projectile",
+    "Description": "Attrib_AirblastDestroyProjectile",
+    "Value type": "additive",
+    "Class": "airblast_destroy_projectile",
+    "Notes": "Unused"
+  },
+  "823": {
+    "Name": "airblast_pushback_disabled",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_pushback_disabled",
+    "Notes": "Unused"
+  },
+  "824": {
+    "Name": "airblast_pushback_no_stun",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_pushback_no_stun",
+    "Notes": "Unused"
+  },
+  "825": {
+    "Name": "airblast_pushback_no_viewpunch",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_pushback_no_viewpunch",
+    "Notes": "Unused"
+  },
+  "826": {
+    "Name": "airblast_deflect_projectiles_disabled",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_deflect_projectiles_disabled",
+    "Notes": "Unused"
+  },
+  "827": {
+    "Name": "airblast_put_out_teammate_disabled",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_put_out_teammate_disabled",
+    "Notes": "Unused"
+  },
+  "828": {
+    "Name": "afterburn duration penalty",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "afterburn_duration_mult",
+    "Notes": "Unused"
+  },
+  "829": {
+    "Name": "afterburn duration bonus",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "afterburn_duration_mult",
+    "Notes": "Unused"
+  },
+  "830": {
+    "Name": "aoe_deflection",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "aoe_deflection",
+    "Notes": "Unused"
+  },
+  "831": {
+    "Name": "mult_end_flame_size",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mult_end_flame_size",
+    "Notes": "Unused"
+  },
+  "832": {
+    "Name": "airblast_give_teammate_speed_boost",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_give_teammate_speed_boost",
+    "Notes": "Unused"
+  },
+  "833": {
+    "Name": "airblast_turn_projectile_to_ammo",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "airblast_turn_projectile_to_ammo",
+    "Notes": "Unused"
+  },
+  "834": {
+    "Name": "paintkit_proto_def_index",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "paintkit_proto_def_index",
+    "Notes": ""
+  },
+  "835": {
+    "Name": "taunt_attr_player_invis_percent",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "taunt_attr_player_invis_percent",
+    "Notes": "Hidden\nUnused"
+  },
+  "837": {
+    "Name": "redirected_flame_size_mult",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "redirected_flame_size_mult",
+    "Notes": "Unused"
+  },
+  "838": {
+    "Name": "flame_reflect_on_collision",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_reflect_on_collision",
+    "Notes": "Unused"
+  },
+  "839": {
+    "Name": "flame_spread_degree",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_spread_degree",
+    "Notes": ""
+  },
+  "840": {
+    "Name": "holster_anim_time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "holster_anim_time",
+    "Notes": ""
+  },
+  "841": {
+    "Name": "flame_gravity",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_gravity",
+    "Notes": "Hidden"
+  },
+  "842": {
+    "Name": "flame_ignore_player_velocity",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_ignore_player_velocity",
+    "Notes": "Hidden\nUnused"
+  },
+  "843": {
+    "Name": "flame_drag",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_drag",
+    "Notes": "Hidden"
+  },
+  "844": {
+    "Name": "flame_speed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_speed",
+    "Notes": "Hidden"
+  },
+  "845": {
+    "Name": "grenades1_resupply_denied",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "grenades1_resupply_denied",
+    "Notes": "Hidden"
+  },
+  "846": {
+    "Name": "grenades2_resupply_denied",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "grenades2_resupply_denied",
+    "Notes": "Hidden\nUnused"
+  },
+  "847": {
+    "Name": "grenades3_resupply_denied",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "grenades3_resupply_denied",
+    "Notes": "Hidden\nUnused"
+  },
+  "848": {
+    "Name": "item_meter_resupply_denied",
+    "Description": "Spawning and resupply do not affect the Gas meter",
+    "Value type": "additive",
+    "Class": "item_meter_resupply_denied",
+    "Notes": ""
+  },
+  "851": {
+    "Name": "mult_player_movespeed_active",
+    "Description": "+%s1% faster move speed on wearer",
+    "Value type": "percentage",
+    "Class": "mult_player_movespeed_active",
+    "Notes": ""
+  },
+  "852": {
+    "Name": "mult_dmgtaken_active",
+    "Description": "%s1% damage vulnerability on wearer",
+    "Value type": "percentage",
+    "Class": "mult_dmgtaken_active",
+    "Notes": "Unused"
+  },
+  "853": {
+    "Name": "mult_patient_overheal_penalty_active",
+    "Description": "%s1% maximum overheal on wearer",
+    "Value type": "percentage",
+    "Class": "mult_patient_overheal_penalty_active",
+    "Notes": ""
+  },
+  "854": {
+    "Name": "mult_health_fromhealers_penalty_active",
+    "Description": "%s1% health from healers on wearer",
+    "Value type": "percentage",
+    "Class": "mult_health_fromhealers_penalty_active",
+    "Notes": ""
+  },
+  "855": {
+    "Name": "mod_maxhealth_drain_rate",
+    "Description": "Maximum health is drained while item is active",
+    "Value type": "additive",
+    "Class": "mod_maxhealth_drain_rate",
+    "Notes": ""
+  },
+  "856": {
+    "Name": "item_meter_charge_type",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "item_meter_charge_type",
+    "Notes": "Hidden"
+  },
+  "859": {
+    "Name": "max_flame_reflection_count",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "max_flame_reflection_count",
+    "Notes": "Hidden\nUnused"
+  },
+  "860": {
+    "Name": "flame_reflection_add_life_time",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_reflection_add_life_time",
+    "Notes": "Hidden\nUnused"
+  },
+  "861": {
+    "Name": "reflected_flame_dmg_reduction",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "reflected_flame_dmg_reduction",
+    "Notes": "Hidden\nUnused"
+  },
+  "862": {
+    "Name": "flame_lifetime",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_lifetime",
+    "Notes": "Hidden"
+  },
+  "863": {
+    "Name": "flame_random_life_time_offset",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_random_life_time_offset",
+    "Notes": "Hidden"
+  },
+  "865": {
+    "Name": "flame_up_speed",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "flame_up_speed",
+    "Notes": "Hidden"
+  },
+  "866": {
+    "Name": "custom_paintkit_seed_lo",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "custom_paintkit_seed_lo",
+    "Notes": "Hidden"
+  },
+  "867": {
+    "Name": "custom_paintkit_seed_hi",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "custom_paintkit_seed_hi",
+    "Notes": "Hidden"
+  },
+  "868": {
+    "Name": "crit_dmg_falloff",
+    "Description": "Critical damage is affected by range",
+    "Value type": "additive",
+    "Class": "crit_dmg_falloff",
+    "Notes": ""
+  },
+  "869": {
+    "Name": "crits_become_minicrits",
+    "Description": "Minicrits whenever it would normally crit",
+    "Value type": "additive",
+    "Class": "crits_become_minicrits",
+    "Notes": ""
+  },
+  "870": {
+    "Name": "falling_impact_radius_pushback",
+    "Description": "Push enemies back when you land (force and radius based on velocity)",
+    "Value type": "additive",
+    "Class": "falling_impact_radius_pushback",
+    "Notes": ""
+  },
+  "871": {
+    "Name": "falling_impact_radius_stun",
+    "Description": "Stun enemies when you land",
+    "Value type": "additive",
+    "Class": "falling_impact_radius_stun",
+    "Notes": "Unused"
+  },
+  "872": {
+    "Name": "thermal_thruster_air_launch",
+    "Description": "Able to re-launch while already in-flight",
+    "Value type": "additive",
+    "Class": "thermal_thruster_air_launch",
+    "Notes": "Hidden"
+  },
+  "873": {
+    "Name": "thermal_thruster",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "thermal_thruster",
+    "Notes": "Hidden"
+  },
+  "874": {
+    "Name": "mult_item_meter_charge_rate",
+    "Description": "%s1% faster recharge rate",
+    "Value type": "inverted_percentage",
+    "Class": "mult_item_meter_charge_rate",
+    "Notes": "Unused"
+  },
+  "875": {
+    "Name": "explode_on_ignite",
+    "Description": "Ignited enemies explode",
+    "Value type": "additive",
+    "Class": "explode_on_ignite",
+    "Notes": ""
+  },
+  "876": {
+    "Name": "lunchbox healing decreased",
+    "Description": "%s1% healing effect",
+    "Value type": "percentage",
+    "Class": "lunchbox_healing_scale",
+    "Notes": ""
+  },
+  "877": {
+    "Name": "speed_boost_on_hit_enemy",
+    "Description": "Gain a speed boost when you hit an enemy player",
+    "Value type": "additive",
+    "Class": "speed_boost_on_hit_enemy",
+    "Notes": ""
+  },
+  "878": {
+    "Name": "item_meter_starts_empty_DISPLAY_ONLY",
+    "Description": "Gas meter starts empty",
+    "Value type": "additive",
+    "Class": "item_meter_starts_empty_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "879": {
+    "Name": "item_meter_charge_type_3_DISPLAY_ONLY",
+    "Description": "Gas meter builds with damage done and/or time",
+    "Value type": "additive",
+    "Class": "item_meter_charge_type_3_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "880": {
+    "Name": "repair health to metal ratio DISPLAY ONLY",
+    "Description": "%s1-to-1 health-to-metal ratio when repairing buildings",
+    "Value type": "additive",
+    "Class": "repair_health_to_metal_ratio_DISPLAY_ONLY",
+    "Notes": ""
+  },
+  "881": {
+    "Name": "health drain medic",
+    "Description": "%s1 health regenerated per second on wearer",
+    "Value type": "additive",
+    "Class": "add_health_regen",
+    "Notes": ""
+  },
+  "1000": {
+    "Name": "CARD: damage bonus",
+    "Description": "+%s1% damage bonus",
+    "Value type": "percentage",
+    "Class": "mult_dmg",
+    "Notes": "Unused"
+  },
+  "1001": {
+    "Name": "CARD: dmg taken from bullets reduced",
+    "Description": "+%s1% bullet damage resistance on wearer",
+    "Value type": "inverted_percentage",
+    "Class": "mult_dmgtaken_from_bullets",
+    "Notes": "Unused"
+  },
+  "1002": {
+    "Name": "CARD: move speed bonus",
+    "Description": "+%s1% faster move speed on wearer",
+    "Value type": "percentage",
+    "Class": "mult_player_movespeed",
+    "Notes": "Unused"
+  },
+  "1003": {
+    "Name": "CARD: health regen",
+    "Description": "+%s1 health regenerated per second on wearer",
+    "Value type": "additive",
+    "Class": "add_health_regen",
+    "Notes": "Unused"
+  },
+  "1004": {
+    "Name": "SPELL: set item tint RGB",
+    "Description": "%s1",
+    "Value type": "from_lookup_table",
+    "Class": "set_item_tint_rgb_override",
+    "Notes": "Unused"
+  },
+  "1005": {
+    "Name": "SPELL: set Halloween footstep type",
+    "Description": "%s1",
+    "Value type": "from_lookup_table",
+    "Class": "halloween_footstep_type",
+    "Notes": "Unused"
+  },
+  "1006": {
+    "Name": "SPELL: Halloween voice modulation",
+    "Description": "Voices From Below",
+    "Value type": "additive",
+    "Class": "halloween_voice_modulation",
+    "Notes": "Unused"
+  },
+  "1007": {
+    "Name": "SPELL: Halloween pumpkin explosions",
+    "Description": "Pumpkin Bombs",
+    "Value type": "additive",
+    "Class": "halloween_pumpkin_explosions",
+    "Notes": "Unused"
+  },
+  "1008": {
+    "Name": "SPELL: Halloween green flames",
+    "Description": "Halloween Fire",
+    "Value type": "additive",
+    "Class": "halloween_green_flames",
+    "Notes": "Unused"
+  },
+  "1009": {
+    "Name": "SPELL: Halloween death ghosts",
+    "Description": "Exorcism",
+    "Value type": "additive",
+    "Class": "halloween_death_ghosts",
+    "Notes": "Unused"
+  },
+  "1030": {
+    "Name": "Attack not cancel charge",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "attack_not_cancel_charge",
+    "Notes": "Hidden\nUnused"
+  },
+  "2000": {
+    "Name": "recipe component defined item 1",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2001": {
+    "Name": "recipe component defined item 2",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2002": {
+    "Name": "recipe component defined item 3",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2003": {
+    "Name": "recipe component defined item 4",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2004": {
+    "Name": "recipe component defined item 5",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2005": {
+    "Name": "recipe component defined item 6",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2006": {
+    "Name": "recipe component defined item 7",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2007": {
+    "Name": "recipe component defined item 8",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2008": {
+    "Name": "recipe component defined item 9",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2009": {
+    "Name": "recipe component defined item 10",
+    "Description": "",
+    "Value type": "",
+    "Class": "dynamic_recipe_component_defined_item",
+    "Notes": ""
+  },
+  "2010": {
+    "Name": "start drop date",
+    "Description": "",
+    "Value type": "date",
+    "Class": "start_drop_date",
+    "Notes": ""
+  },
+  "2011": {
+    "Name": "end drop date",
+    "Description": "",
+    "Value type": "date",
+    "Class": "end_drop_date",
+    "Notes": ""
+  },
+  "2012": {
+    "Name": "tool target item",
+    "Description": "",
+    "Value type": "",
+    "Class": "tool_target_item",
+    "Notes": "Hidden"
+  },
+  "2013": {
+    "Name": "killstreak effect",
+    "Description": "Killstreaker: %s1",
+    "Value type": "killstreakeffect_index",
+    "Class": "killstreak_effect",
+    "Notes": ""
+  },
+  "2014": {
+    "Name": "killstreak idleeffect",
+    "Description": "Sheen: %s1",
+    "Value type": "killstreak_idleeffect_index",
+    "Class": "killstreak_idleeffect",
+    "Notes": ""
+  },
+  "2015": {
+    "Name": "spellbook page attr id",
+    "Description": "",
+    "Value type": "",
+    "Class": "spellbook_page_attr_id",
+    "Notes": "Hidden"
+  },
+  "2016": {
+    "Name": "Halloween Spellbook Page: Tumidum",
+    "Description": "Pages of Tumidum: %s1",
+    "Value type": "additive",
+    "Class": "tf_halloween_spell_page",
+    "Notes": ""
+  },
+  "2017": {
+    "Name": "Halloween Spellbook Page: Gratanter",
+    "Description": "Pages of Gratanter: %s1",
+    "Value type": "additive",
+    "Class": "tf_halloween_spell_page",
+    "Notes": ""
+  },
+  "2018": {
+    "Name": "Halloween Spellbook Page: Audere",
+    "Description": "Pages of Audere: %s1",
+    "Value type": "additive",
+    "Class": "tf_halloween_spell_page",
+    "Notes": ""
+  },
+  "2019": {
+    "Name": "Halloween Spellbook Page: Congeriae",
+    "Description": "Pages of Congeriae: %s1",
+    "Value type": "additive",
+    "Class": "tf_halloween_spell_page",
+    "Notes": ""
+  },
+  "2020": {
+    "Name": "Halloween Spellbook Page: Veteris",
+    "Description": "Pages of Veteris: %s1",
+    "Value type": "additive",
+    "Class": "tf_halloween_spell_page",
+    "Notes": ""
+  },
+  "2021": {
+    "Name": "additional halloween response criteria name",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "additional_halloween_response_criteria_name",
+    "Notes": "Hidden"
+  },
+  "2022": {
+    "Name": "loot rarity",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "loot_rarity",
+    "Notes": "Hidden"
+  },
+  "2023": {
+    "Name": "quality text override",
+    "Description": "",
+    "Value type": "",
+    "Class": "quality_text_override",
+    "Notes": "Hidden"
+  },
+  "2024": {
+    "Name": "item name text override",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_name_text_override",
+    "Notes": "Hidden"
+  },
+  "2025": {
+    "Name": "killstreak tier",
+    "Description": "Killstreaks Active",
+    "Value type": "additive",
+    "Class": "killstreak_tier",
+    "Notes": ""
+  },
+  "2026": {
+    "Name": "wide item level",
+    "Description": "",
+    "Value type": "",
+    "Class": "wide_item_level",
+    "Notes": "Hidden"
+  },
+  "2027": {
+    "Name": "is australium item",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "is_australium_item",
+    "Notes": "Hidden"
+  },
+  "2028": {
+    "Name": "is marketable",
+    "Description": "",
+    "Value type": "",
+    "Class": "is_marketable",
+    "Notes": "Hidden"
+  },
+  "2029": {
+    "Name": "allowed in medieval mode",
+    "Description": "",
+    "Value type": "",
+    "Class": "allowed_in_medieval_mode",
+    "Notes": "Hidden"
+  },
+  "2030": {
+    "Name": "crit on hard hit",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "crit_on_hard_hit",
+    "Notes": "Hidden"
+  },
+  "2031": {
+    "Name": "series number",
+    "Description": "",
+    "Value type": "",
+    "Class": "series_number",
+    "Notes": "Hidden"
+  },
+  "2032": {
+    "Name": "recipe no partial complete",
+    "Description": "",
+    "Value type": "",
+    "Class": "recipe_no_partial_complete",
+    "Notes": "Hidden"
+  },
+  "2034": {
+    "Name": "kill refills meter",
+    "Description": "Melee kills refill %s1% of your charge meter.",
+    "Value type": "additive_percentage",
+    "Class": "kill_refills_meter",
+    "Notes": ""
+  },
+  "2035": {
+    "Name": "random drop line item unusual chance",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2036": {
+    "Name": "random drop line item unusual list",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2037": {
+    "Name": "random drop line item 0",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2038": {
+    "Name": "random drop line item 1",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2039": {
+    "Name": "random drop line item 2",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2040": {
+    "Name": "random drop line item 3",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2041": {
+    "Name": "on taunt attach particle effect",
+    "Description": "★ Unusual Effect: %s1",
+    "Value type": "particle_index",
+    "Class": "",
+    "Notes": ""
+  },
+  "2042": {
+    "Name": "loot list name",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2043": {
+    "Name": "upgrade rate decrease",
+    "Description": "%s1% slower upgrade rate",
+    "Value type": "inverted_percentage",
+    "Class": "upgrade_rate_mod",
+    "Notes": "Unused"
+  },
+  "2044": {
+    "Name": "can shuffle crate contents",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2045": {
+    "Name": "random drop line item footer desc",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2046": {
+    "Name": "is commodity",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2048": {
+    "Name": "voice pitch scale",
+    "Description": "Disables double jump",
+    "Value type": "percentage",
+    "Class": "voice_pitch_scale",
+    "Notes": "Hidden\nUnused"
+  },
+  "2049": {
+    "Name": "gunslinger punch combo",
+    "Description": "Third successful punch in a row always crits.",
+    "Value type": "additive",
+    "Class": "gunslinger_punch_combo",
+    "Notes": ""
+  },
+  "2050": {
+    "Name": "cannot delete",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2051": {
+    "Name": "quest loaner id low",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2052": {
+    "Name": "quest loaner id hi",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2053": {
+    "Name": "is_festivized",
+    "Description": "Festivized",
+    "Value type": "additive",
+    "Class": "is_festivized",
+    "Notes": ""
+  },
+  "2054": {
+    "Name": "fire particle blue",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2055": {
+    "Name": "fire particle red",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2056": {
+    "Name": "fire particle blue crit",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2057": {
+    "Name": "fire particle red crit",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2058": {
+    "Name": "meter_label",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2059": {
+    "Name": "item_meter_damage_for_full_charge",
+    "Description": "",
+    "Value type": "additive",
+    "Class": "item_meter_damage_for_full_charge",
+    "Notes": "Hidden"
+  },
+  "2062": {
+    "Name": "airblast cost scale hidden",
+    "Description": "",
+    "Value type": "percentage",
+    "Class": "mult_airblast_cost",
+    "Notes": "Hidden"
+  },
+  "2063": {
+    "Name": "dragons fury positive properties",
+    "Description": "Deals 300% damage to burning players +50% repressurization rate on hit",
+    "Value type": "additive",
+    "Class": "dragons_fury_positive_properties",
+    "Notes": ""
+  },
+  "2064": {
+    "Name": "dragons fury negative properties",
+    "Description": "-50% repressurization rate on Alt-Fire",
+    "Value type": "additive",
+    "Class": "dragons_fury_negative_properties",
+    "Notes": ""
+  },
+  "2065": {
+    "Name": "dragons fury neutral properties",
+    "Description": "Uses a shared pressure tank for Primary Fire and Alt-Fire. Primary Fire: Launches a fast-moving projectile that briefly ignites enemies Alt-Fire: Release a blast of air that pushes enemies and projectiles, and extinguishes teammates that are on fire.",
+    "Value type": "additive",
+    "Class": "dragons_fury_neutral_properties",
+    "Notes": ""
+  },
+  "2066": {
+    "Name": "force center wrap",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "2067": {
+    "Name": "attack_minicrits_and_consumes_burning",
+    "Description": "Mini-crits burning targets and extinguishes them. Damage increases based on remaining duration of afterburn. Killing blows on burning players grant a speed boost.",
+    "Value type": "additive",
+    "Class": "attack_minicrits_and_consumes_burning",
+    "Notes": ""
+  },
+  "2068": {
+    "Name": "is winter case",
+    "Description": "",
+    "Value type": "",
+    "Class": "",
+    "Notes": "Hidden"
+  },
+  "3000": {
+    "Name": "item slot criteria 1",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3001": {
+    "Name": "item in slot 1",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3002": {
+    "Name": "item slot criteria 2",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3003": {
+    "Name": "item in slot 2",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3004": {
+    "Name": "item slot criteria 3",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3005": {
+    "Name": "item in slot 3",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3006": {
+    "Name": "item slot criteria 4",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3007": {
+    "Name": "item in slot 4",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3008": {
+    "Name": "item slot criteria 5",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3009": {
+    "Name": "item in slot 5",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3010": {
+    "Name": "item slot criteria 6",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3011": {
+    "Name": "item in slot 6",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3012": {
+    "Name": "item slot criteria 7",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3013": {
+    "Name": "item in slot 7",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3014": {
+    "Name": "item slot criteria 8",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_slot_criteria",
+    "Notes": ""
+  },
+  "3015": {
+    "Name": "item in slot 8",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_in_slot",
+    "Notes": ""
+  },
+  "3016": {
+    "Name": "quest earned standard points",
+    "Description": "",
+    "Value type": "",
+    "Class": "quest_earned_standard_points",
+    "Notes": "Hidden"
+  },
+  "3017": {
+    "Name": "quest earned bonus points",
+    "Description": "",
+    "Value type": "",
+    "Class": "quest_earned_bonus_points",
+    "Notes": "Hidden"
+  },
+  "3018": {
+    "Name": "item drop wave",
+    "Description": "",
+    "Value type": "",
+    "Class": "item_drop_wave",
+    "Notes": "Hidden"
+  }
+}

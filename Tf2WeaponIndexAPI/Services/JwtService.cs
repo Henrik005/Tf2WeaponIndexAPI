@@ -7,8 +7,8 @@ namespace Tf2WeaponIndexAPI.Services
 {
     public class JwtService
     {
-       
         
+
     }
 }
 

@@ -10,7 +10,7 @@ namespace Tf2WeaponIndexAPI.Models
         [BsonElement("weapon_name")]
         public string WeaponName { get; set; } = null!;
         [BsonElement("stats")]
-        public string Stats { get; set; } = null!;
+        public List<string> Stats { get; set; } = null!;
         [BsonElement("img")]
         public string Image { get; set; } = null!;
         [BsonElement("class")]

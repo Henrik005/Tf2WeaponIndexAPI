@@ -24,7 +24,7 @@ namespace Tf2WeaponIndexAPI.Controllers
             _configuration = configuration;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> Post([FromBody] User newUser)
         {
 
