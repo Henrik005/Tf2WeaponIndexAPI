@@ -10,8 +10,6 @@
 *.userosscache
 *.sln.docstates
 
-# env
-C:\Users\henri\source\repos\Tf2WeaponIndexAPI\Tf2WeaponIndexAPI\.env
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -365,3 +363,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Ignore environment variables file
+.env
