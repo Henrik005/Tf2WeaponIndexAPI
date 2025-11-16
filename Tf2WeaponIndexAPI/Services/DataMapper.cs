@@ -1,6 +1,5 @@
 ﻿using System.Text.Json;
 using System.Text;
-using System.Text.Json;
 using System.ComponentModel;
 using Tf2WeaponIndexAPI.Models;
 using System.Net.WebSockets;
@@ -10,40 +9,66 @@ namespace Tf2WeaponIndexAPI.Services
 
     public class DataMapper
     {
-        private readonly Dictionary<string, Tf2AttributeDefinition> attributeDefs;
+        public readonly Dictionary<string, Tf2AttributeDefinition> attributeDefs;
+        public readonly Dictionary<string, Tf2Item> TfItem;
         public DataMapper()
         {
-            var raw = JsonSerializer.Deserialize<Dictionary<string, Tf2AttributeDefinition>>(
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var rawAttributes = JsonSerializer.Deserialize<Dictionary<string, Tf2AttributeDefinition>>(
                 File.ReadAllText("Tf2ItemAttributes.json"));
-            var attributeDefs = raw.Values.ToDictionary(attribute => attribute.Class, attribute => attribute);
+            attributeDefs = rawAttributes.Values.ToDictionary(attribute => attribute.Name, attribute => attribute);
+
+            var rawItems = JsonSerializer.Deserialize<List<Tf2Item>>(
+                File.ReadAllText("tf2_weapons.json"));
+            TfItem = rawItems.ToDictionary(item => item.name, item => item);
+            var e = 0;
+
+
+
 
         }
 
-        void FormatItem(List<Tf2Item> items)
+        public List<string> FormatItem(List<Tf2Item> items)
         {
-
-            var sb = new StringBuilder();
+            var formattedItems = new List<string>();
+           
             foreach (var item in items)
             {
-                sb.AppendLine(item.Name);
-                sb.AppendLine($"Level {item.MinILevel} {item.ItemTypeName.Replace("#TF_Weapon_", "")}");
-                foreach(var attr in item.Attributes)
+                var sb = new StringBuilder();
+                sb.AppendLine(item.name);
+                sb.AppendLine($"Level {item.min_ilevel} {item.item_type_name.Replace("#TF_Weapon_", "")}");
+                if (item.attributes != null)
                 {
-                    if (attributeDefs.TryGetValue(attr.Class, out var def))
+
+
+                    foreach (var attr in item.attributes)
                     {
-                        sb.AppendLine(FormatAttribute(attr, def));
+                        if (attr.Class != null && attributeDefs.TryGetValue(attr.Class, out var def))
+                        {
+                            sb.AppendLine(FormatAttribute(attr, def));
+                        }
+                        else
+                        {
+                            sb.AppendLine(attr.Name);
+                        }
+                        sb.AppendLine("\n");
                     }
-                    else
-                    {
-                        sb.AppendLine(attr.Name);
-                    }
-                    sb.AppendLine("\n");
                 }
+                else
+                {
+                    sb.AppendLine("Default Weapon");
+                }
+                formattedItems.Add(sb.ToString());
             }
+            return formattedItems;
         }
 
 
-        string FormatAttribute(Tf2ItemAttribute attr, Tf2AttributeDefinition def)
+        public string FormatAttribute(Tf2ItemAttribute attr, Tf2AttributeDefinition def)
         {
             if (def == null) return attr.Name;
             string formattedValue;

@@ -17,6 +17,7 @@ builder.Services.AddSingleton<MongoDBService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<DataMapper>();
 
 //----CORS Configuration----
 builder.Services.AddCors(options =>

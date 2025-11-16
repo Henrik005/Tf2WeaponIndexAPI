@@ -1,4 +1,5 @@
-﻿namespace Tf2WeaponIndexAPI.Models
+﻿using System.Text.Json.Serialization;
+namespace Tf2WeaponIndexAPI.Models
 {
     public class Tf2AttributeDefinition
     {
