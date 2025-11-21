@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
+using System;
 using Tf2WeaponIndexAPI.Models;
 using Tf2WeaponIndexAPI.Services;
 
@@ -19,40 +21,60 @@ namespace Tf2WeaponIndexAPI.Controllers
         }
 
         [HttpGet("getAllWeapons")]
-        public IActionResult Get()
+        public IActionResult GetWeapons()
         {
             var items = _dataMapper.TfItem.Values.ToList();
-            var formattedItems = _dataMapper.FormatItem(items);
+            var attributeDefs = _dataMapper.attributeDefs.Values.ToList();
 
-            var attributes = _dataMapper.attributeDefs.Values.ToList();
-            var formattedAttributes = new List<string>();
+            var result = new List<object>();
 
             foreach (var item in items)
             {
+                var formattedItem = _dataMapper.FormatItem(new List<Tf2Item> { item }).FirstOrDefault();
+                var formattedAttributes = new List<string>();
+
                 if (item.attributes != null)
                 {
                     foreach (var attribute in item.attributes)
                     {
-                        var attributeDef = attributes.FirstOrDefault(attrDef => attrDef.Name == attribute.Name);
-                        if (attributeDef != null)
+                        var matchingAttributeDef = attributeDefs.FirstOrDefault(attrDef => attrDef.Name == attribute.Name);
+                        if (matchingAttributeDef != null)
                         {
-                            var formattedAttribute = _dataMapper.FormatAttribute(attribute, attributeDef);
+                            var formattedAttribute = _dataMapper.FormatAttribute(attribute, matchingAttributeDef);
                             formattedAttributes.Add(formattedAttribute);
                         }
                     }
                 }
-            }
 
-            if (formattedAttributes.Count > 0 || items.Count > 0)
-            {
-                return Ok(new
+                result.Add(new
                 {
-                    formattedItems,
-                    formattedAttributes
+                    Item = formattedItem,
+                    Attributes = formattedAttributes
                 });
             }
 
+            if (result.Count > 0)
+            {
+                return Ok(result);
+            }
+
             return NotFound("No weapons found.");
+        }
+
+        [HttpGet("attributeTest")]
+        public IActionResult attrTest()
+        {
+            foreach (var items in _dataMapper.TfItem.Values)
+            {
+                if (items.attributes != null)
+                {
+                    foreach (var attribute in items.attributes)
+                    {
+                        Console.WriteLine(attribute.Name);
+                    }
+                }
+            }
+            return Ok(_dataMapper.TfItem.Values);
         }
     }
 }

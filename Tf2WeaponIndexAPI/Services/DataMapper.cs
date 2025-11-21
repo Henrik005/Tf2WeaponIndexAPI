@@ -55,7 +55,7 @@ namespace Tf2WeaponIndexAPI.Services
                         {
                             sb.AppendLine(attr.Name);
                         }
-                        sb.AppendLine("\n");
+                       
                     }
                 }
                 else
